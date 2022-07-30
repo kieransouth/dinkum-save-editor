@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spicy.Dinkum.Editor", "Spicy.Dinkum.Editor\Spicy.Dinkum.Editor.csproj", "{CAC304BD-558D-48BA-AEA8-6378417F420B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spicy.Dinkum.Editor.Abstractions", "Spicy.Dinkum.Editor.Abstractions\Spicy.Dinkum.Editor.Abstractions.csproj", "{33C5479B-EF33-484F-8C21-8F1182CC9B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spicy.Dinkum.Editor.Implementations", "Spicy.Dinkum.Editor.Implementations\Spicy.Dinkum.Editor.Implementations.csproj", "{61FF48A3-3001-4C61-B7B8-27D3B2C6EDE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC304BD-558D-48BA-AEA8-6378417F420B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC304BD-558D-48BA-AEA8-6378417F420B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC304BD-558D-48BA-AEA8-6378417F420B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC304BD-558D-48BA-AEA8-6378417F420B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C5479B-EF33-484F-8C21-8F1182CC9B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C5479B-EF33-484F-8C21-8F1182CC9B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C5479B-EF33-484F-8C21-8F1182CC9B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C5479B-EF33-484F-8C21-8F1182CC9B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FF48A3-3001-4C61-B7B8-27D3B2C6EDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FF48A3-3001-4C61-B7B8-27D3B2C6EDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FF48A3-3001-4C61-B7B8-27D3B2C6EDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FF48A3-3001-4C61-B7B8-27D3B2C6EDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
