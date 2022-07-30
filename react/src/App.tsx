@@ -24,6 +24,10 @@ const App = () => {
                             </div>
                             <KuiButton text={'Edit Player Info'} type={'default'} icon={solid('wrench')}
                                        click={() => nav('editors/player-info')}/>
+                            <KuiButton text={'Edit Licences'} type={'default'} icon={solid('wrench')}
+                                       click={() => nav('editors/licences')}/>
+                            <KuiButton text={'Edit Date'} type={'default'} icon={solid('wrench')}
+                                       click={() => nav('editors/date')}/>
                         </div>
                         <div className={'w-full flex flex-col gap-6'}>
                             <KuiButton fw text={'Settings'} icon={solid('cogs')} click={() => nav('settings')}/>

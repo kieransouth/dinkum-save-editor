@@ -7,6 +7,8 @@ import {setChonkyDefaults} from 'chonky';
 import {ChonkyIconFA} from 'chonky-icon-fontawesome';
 import {Settings} from "./components/sections/settings/Settings";
 import {PlayerInfoEditor} from "./components/sections/editors/PlayerInfoEditor";
+import {LicenceAndPermitPointEditor} from "./components/sections/editors/LicenceAndPermitPointEditor";
+import {DateEditor} from "./components/sections/editors/DateEditor";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -22,6 +24,8 @@ root.render(
                     <Route path={'settings'} element={<Settings/>}/>
                     <Route path={'editors'}>
                         <Route path={'player-info'} element={<PlayerInfoEditor/>}/>
+                        <Route path={'licences'} element={<LicenceAndPermitPointEditor/>}/>
+                        <Route path={'date'} element={<DateEditor/>}/>
                     </Route>
                 </Route>
             </Routes>

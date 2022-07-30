@@ -16,31 +16,31 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         _settingsService = settingsService;
         _fileNameTypeMap = new Dictionary<string, Type>
         {
-            ["playerInfo.dat"] = typeof(PlayerInv),
-            ["animalDetails.dat"] = AccessInternalType("FencedOffAnimalSave"),
-            ["animalHouseSave.dat"] = AccessInternalType("AnimalHouseSave"),
-            ["bboard.dat"] = AccessInternalType("BulletinBoardSave"),
-            ["carry.dat"] = AccessInternalType("CarrySave"),
-            ["changers.dat"] = AccessInternalType("ChangerSave"),
-            ["date.dat"] = AccessInternalType("DateSave"),
-            ["deeds.dat"] = AccessInternalType("DeedSave"),
-            ["drops.dat"] = AccessInternalType("DropSaves"),
-            ["farmAnimalSave.dat"] = AccessInternalType("FarmAnimalSave"),
-            ["houseSave.dat"] = AccessInternalType("HouseSave"),
-            ["levels.dat"] = AccessInternalType("LevelSave"),
-            ["licences.dat"] = AccessInternalType("LicenceAndPermitPointSave"),
-            ["mail.dat"] = AccessInternalType("MailSave"),
-            ["mapIcons.dat"] = AccessInternalType("MapIconSave"),
-            ["museumSave.dat"] = AccessInternalType("MuseumSave"),
-            ["npc.dat"] = AccessInternalType("NPCsave"),
-            ["onTop.dat"] = AccessInternalType("ItemOnTopSave"),
-            ["pedia.dat"] = AccessInternalType("PediaSave"),
-            ["photoDetails.dat"] = AccessInternalType("PhotoSave"),
-            ["quests.dat"] = AccessInternalType("QuestSave"),
-            ["townSave.dat"] = AccessInternalType("TownManagerSave"),
-            ["townStatus.dat"] = AccessInternalType("TownStatusSave"),
-            ["unlocked.dat"] = AccessInternalType("RecipesUnlockedSave"),
-            ["vehicleInfo.dat"] = AccessInternalType("VehicleSave"),
+            ["playerInfo"] = typeof(PlayerInv),
+            ["animalDetails"] = CreateAccessor("FencedOffAnimalSave"),
+            ["animalHouseSave"] = CreateAccessor("AnimalHouseSave"),
+            ["bboard"] = CreateAccessor("BulletinBoardSave"),
+            ["carry"] = CreateAccessor("CarrySave"),
+            ["changers"] = CreateAccessor("ChangerSave"),
+            ["date"] = CreateAccessor("DateSave"),
+            ["deeds"] = CreateAccessor("DeedSave"),
+            ["drops"] = CreateAccessor("DropSaves"),
+            ["farmAnimalSave"] = CreateAccessor("FarmAnimalSave"),
+            ["houseSave"] = CreateAccessor("HouseSave"),
+            ["levels"] = CreateAccessor("LevelSave"),
+            ["licences"] = CreateAccessor("LicenceAndPermitPointSave"),
+            ["mail"] = CreateAccessor("MailSave"),
+            ["mapIcons"] = CreateAccessor("MapIconSave"),
+            ["museumSave"] = CreateAccessor("MuseumSave"),
+            ["npc"] = CreateAccessor("NPCsave"),
+            ["onTop"] = CreateAccessor("ItemOnTopSave"),
+            ["pedia"] = CreateAccessor("PediaSave"),
+            ["photoDetails"] = CreateAccessor("PhotoSave"),
+            ["quests"] = CreateAccessor("QuestSave"),
+            ["townSave"] = CreateAccessor("TownManagerSave"),
+            ["townStatus"] = CreateAccessor("TownStatusSave"),
+            ["unlocked"] = CreateAccessor("RecipesUnlockedSave"),
+            ["vehicleInfo"] = CreateAccessor("VehicleSave"),
         };
     }
 
@@ -60,7 +60,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
 
     private ISaveFileSummaryModel? GetSummary(string slotDirectory)
     {
-        var deserialised = ReadBinaryFile(slotDirectory, "playerInfo.dat");
+        var deserialised = ReadBinaryFile(slotDirectory, "playerInfo");
 
         if (deserialised is not PlayerInv playerInv)
         {
@@ -79,16 +79,17 @@ public class BinaryFormatterSaveFileService : ISaveFileService
 
     public object? ReadBinaryFile(string slotDirectory, string fileName)
     {
-        var filePath = Path.Combine(slotDirectory, fileName);
+        var filePath = Path.Combine(slotDirectory, $"{fileName}.dat");
 
         if (!File.Exists(filePath) || !_fileNameTypeMap.ContainsKey(fileName))
         {
             return null;
         }
 
+        var type = _fileNameTypeMap[fileName];
         var binaryFormatter = new BinaryFormatter
         {
-            Binder = new BinaryFormatterBinder(_fileNameTypeMap[fileName])
+            Binder = new BinaryFormatterBinder(type)
         };
 
         try
@@ -111,7 +112,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
 
     public void WriteBinaryFile(string slotDirectory, string fileName, string data)
     {
-        var filePath = Path.Combine(slotDirectory, fileName);
+        var filePath = Path.Combine(slotDirectory, $"{fileName}.dat");
 
         if (!File.Exists(filePath) || !_fileNameTypeMap.ContainsKey(fileName))
         {
@@ -147,7 +148,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         }
     }
 
-    private Type AccessInternalType(string typeName)
+    private Type CreateAccessor(string typeName)
     {
         var knownType = typeof(PlayerInv);
         var internalType = knownType.Assembly.GetType(typeName);

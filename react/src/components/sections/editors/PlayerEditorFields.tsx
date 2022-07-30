@@ -1,13 +1,13 @@
 import {KuiTextInput} from "../../kui/KuiTextInput";
 import {KuiNumberInput} from "../../kui/KuiNumberInput";
-import React, {FormEventHandler, useState} from "react";
+import React, {useState} from "react";
 import {Slot} from "../../../models/slot";
-import {PlayerInvSave, playerInvSaveSchema} from "../../../models/saves/playerInv";
+import {PlayerInv, playerInvSchema} from "../../../models/saves/playerInv";
 import {KuiButton} from "../../kui/KuiButton";
 import {KuiNotice} from "../../kui/KuiNotice";
 import saveService from "../../../services/saveService";
 
-type Props = { slot: Slot, data: PlayerInvSave };
+type Props = { slot: Slot, data: PlayerInv };
 
 export const PlayerEditorFields: React.FC<Props> = ({slot, data}) => {
     const [error, setError] = useState<Error>();
@@ -23,7 +23,7 @@ export const PlayerEditorFields: React.FC<Props> = ({slot, data}) => {
         event.preventDefault();
         setError(undefined);
 
-        let validated = playerInvSaveSchema
+        let validated = playerInvSchema
             .validate({
                 ...data,
                 playerName,
@@ -33,7 +33,7 @@ export const PlayerEditorFields: React.FC<Props> = ({slot, data}) => {
                 stamina,
                 health
             })
-            .then(validatedData => saveService.saveData<PlayerInvSave>(slot.slotName, 'playerInfo.dat', validatedData))
+            .then(validatedData => saveService.saveData<PlayerInv>(slot.slotName, 'playerInfo.dat', validatedData))
             .catch(setError);
     }
 

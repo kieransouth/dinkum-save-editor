@@ -1,6 +1,6 @@
 import {array, boolean, InferType, number, object, string} from "yup";
 
-export const playerInvSaveSchema = object({
+export const playerInvSchema = object({
     playerName: string().required(),
     islandName: string().required(),
     money: number().required(),
@@ -27,5 +27,5 @@ export const playerInvSaveSchema = object({
     savedTime: number().required()
 })
 
-export interface PlayerInvSave extends InferType<typeof playerInvSaveSchema> {
+export interface PlayerInv extends InferType<typeof playerInvSchema> {
 }
