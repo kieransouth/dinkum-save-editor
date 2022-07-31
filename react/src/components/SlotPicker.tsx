@@ -22,13 +22,13 @@ export const SlotPicker: React.FC<Props> = ({slotPicked}) => {
             .then(setSlots);
     }, []);
 
-    useEffect(() => {
-        if (!slots || slots.length === 0) {
-            return;
-        }
-
-        setSlot(slots[0]);
-    }, [slots]);
+    // useEffect(() => {
+    //     if (!slots || slots.length === 0) {
+    //         return;
+    //     }
+    //
+    //     setSlot(slots[0]);
+    // }, [slots]);
 
     useEffect(() => slotPicked(slot), [slot]);
 

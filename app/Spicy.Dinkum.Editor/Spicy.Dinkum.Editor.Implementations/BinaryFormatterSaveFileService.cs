@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
 using Newtonsoft.Json;
 using Spicy.Dinkum.Editor.Abstractions;
@@ -86,10 +87,9 @@ public class BinaryFormatterSaveFileService : ISaveFileService
             return null;
         }
 
-        var type = _fileNameTypeMap[fileName];
         var binaryFormatter = new BinaryFormatter
         {
-            Binder = new BinaryFormatterBinder(type)
+            Binder = new BinaryFormatterBinder()
         };
 
         try
@@ -106,7 +106,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         }
         catch (Exception exception)
         {
-            return null;
+           return null;
         }
     }
 
@@ -121,7 +121,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
 
         var binaryFormatter = new BinaryFormatter
         {
-            Binder = new BinaryFormatterBinder(_fileNameTypeMap[fileName])
+            Binder = new BinaryFormatterBinder()
         };
 
         try

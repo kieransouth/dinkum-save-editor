@@ -4,12 +4,12 @@ namespace Spicy.Dinkum.Editor.Implementations.Models;
 
 public class BinaryFormatterBinder : SerializationBinder
 {
-    private readonly Type _type;
-
-    public BinaryFormatterBinder(Type type)
+    public BinaryFormatterBinder()
     {
-        _type = type;
     }
 
-    public override Type? BindToType(string assemblyName, string typeName) => _type;
+    public override Type? BindToType(string assemblyName, string typeName)
+    {
+        return typeof(PlayerInv).Assembly.GetType(typeName);
+    }
 }

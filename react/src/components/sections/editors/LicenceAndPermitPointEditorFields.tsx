@@ -19,6 +19,8 @@ export const LicenceAndPermitPointEditorFields: React.FC<Props> = ({slot, data})
         event.preventDefault();
         setError(undefined);
 
+        console.log({...data, permitPoints});
+
         let validated = licenceAndPermitPointSchema
             .validate({
                 ...data,

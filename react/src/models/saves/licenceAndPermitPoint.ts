@@ -4,7 +4,7 @@ export const licenceSchema = object({
     type: number().required(),
     maxLevel: number().required(),
     currentLevel: number().required(),
-    levelCostMultiplier: number().required(),
+    levelCostMultiplier: number(),
     levelCost: number().required(),
     isUnlocked: boolean().required(),
     unlockedWithLevel: boolean().required(),
@@ -12,7 +12,7 @@ export const licenceSchema = object({
     unlockedEveryLevel: number().required(),
     hasBeenSeenBefore: boolean().required(),
     sortingNumber: number().required()
-})
+}).nullable();
 
 export const milestoneSchema = object({
     myTaskType: number().required(),
@@ -20,8 +20,8 @@ export const milestoneSchema = object({
     rewardPerLevel: number().required(),
     points: number().required(),
     currentLevel: number().required(),
-    milestonePreffix: string().required(),
-    milestoneSuffix: string().required()
+    milestonePreffix: string(),
+    milestoneSuffix: string()
 });
 
 export const licenceAndPermitPointSchema = object({
