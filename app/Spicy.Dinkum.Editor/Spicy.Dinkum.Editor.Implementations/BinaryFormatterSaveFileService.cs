@@ -118,7 +118,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
             }
 
             var timeStamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-            File.Move(filePath, $"{filePath}.backup.{timeStamp}");
+            File.Move(filePath, $"{filePath}.{timeStamp}.backup");
 
             using var fileStream = File.OpenWrite(filePath);
 #pragma warning disable SYSLIB0011

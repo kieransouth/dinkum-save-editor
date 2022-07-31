@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
 import {setChonkyDefaults} from 'chonky';
 import {ChonkyIconFA} from 'chonky-icon-fontawesome';
 import {Settings} from "./components/sections/settings/Settings";
@@ -25,7 +25,7 @@ const editors = editorService.getEditors();
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path={'/'} element={<App/>}>
                     <Route path={'settings'} element={<Settings/>}/>
@@ -78,7 +78,7 @@ root.render(
                     </Route>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 )
 ;
