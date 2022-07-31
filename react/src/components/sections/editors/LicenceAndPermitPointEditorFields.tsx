@@ -1,16 +1,16 @@
 import React, {useState} from "react";
-import {PlayerInv, playerInvSchema} from "../../../models/saves/playerInv";
+import {EditorFieldsProps} from "../../../models/editor";
+import {LicenceAndPermitPoint, licenceAndPermitPointSchema} from "../../../models/saves/licenceAndPermitPoint";
 import saveService from "../../../services/saveService";
-import {KuiTextInput} from "../../kui/KuiTextInput";
 import {KuiNumberInput} from "../../kui/KuiNumberInput";
 import {KuiNotice} from "../../kui/KuiNotice";
 import {KuiButton} from "../../kui/KuiButton";
-import {Slot} from "../../../models/slot";
-import {LicenceAndPermitPoint, licenceAndPermitPointSchema} from "../../../models/saves/licenceAndPermitPoint";
 
-type Props = { slot: Slot, data: LicenceAndPermitPoint };
-
-export const LicenceAndPermitPointEditorFields: React.FC<Props> = ({slot, data}) => {
+export const LicenceAndPermitPointEditorFields: React.FC<EditorFieldsProps<LicenceAndPermitPoint>> = ({
+                                                                                                          slot,
+                                                                                                          data,
+                                                                                                          fileName
+                                                                                                      }) => {
     const [error, setError] = useState<Error>();
 
     const [permitPoints, setPermitPoints] = useState<number>(data.permitPoints);
@@ -19,14 +19,12 @@ export const LicenceAndPermitPointEditorFields: React.FC<Props> = ({slot, data})
         event.preventDefault();
         setError(undefined);
 
-        console.log({...data, permitPoints});
-
         let validated = licenceAndPermitPointSchema
             .validate({
                 ...data,
                 permitPoints
             })
-            .then(validatedData => saveService.saveData<LicenceAndPermitPoint>(slot.slotName, 'licences', validatedData))
+            .then(validatedData => saveService.saveData<LicenceAndPermitPoint>(slot.slotName, fileName, validatedData))
             .catch(setError);
     }
 

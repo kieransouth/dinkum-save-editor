@@ -1,17 +1,12 @@
 import React, {useState} from "react";
-import {PlayerInv, playerInvSchema} from "../../../models/saves/playerInv";
+import {EditorFieldsProps} from "../../../models/editor";
 import saveService from "../../../services/saveService";
-import {KuiTextInput} from "../../kui/KuiTextInput";
 import {KuiNumberInput} from "../../kui/KuiNumberInput";
 import {KuiNotice} from "../../kui/KuiNotice";
 import {KuiButton} from "../../kui/KuiButton";
-import {Slot} from "../../../models/slot";
-import {LicenceAndPermitPoint, licenceAndPermitPointSchema} from "../../../models/saves/licenceAndPermitPoint";
 import {DateSave, dateSchema} from "../../../models/saves/date";
 
-type Props = { slot: Slot, data: DateSave };
-
-export const DateFields: React.FC<Props> = ({slot, data}) => {
+export const DateFields: React.FC<EditorFieldsProps<DateSave>> = ({slot, data, fileName}) => {
     const [error, setError] = useState<Error>();
 
     const [day, setDay] = useState<number>(data.day);
@@ -37,7 +32,7 @@ export const DateFields: React.FC<Props> = ({slot, data}) => {
                 todayMineSeed,
                 tomorrowMineSeed
             })
-            .then(validatedData => saveService.saveData<DateSave>(slot.slotName, 'date', validatedData))
+            .then(validatedData => saveService.saveData<DateSave>(slot.slotName, fileName, validatedData))
             .catch(setError);
     }
 

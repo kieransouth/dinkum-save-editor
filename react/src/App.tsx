@@ -2,9 +2,11 @@ import React from 'react';
 import {Outlet, useNavigate} from "react-router-dom";
 import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 import {KuiButton} from "./components/kui/KuiButton";
+import editorService from "./services/editorService";
 
 const App = () => {
     const nav = useNavigate();
+    const editors = editorService.getEditors();
 
     return (
         <div className="font-dinkum bg-primary w-full flex flex-row min-h-screen flex-grow">
@@ -22,12 +24,10 @@ const App = () => {
                                 <p>Editors</p>
                                 <div className={'border-2 border-primary w-full rounded-md'}></div>
                             </div>
-                            <KuiButton text={'Edit Player Info'} type={'default'} icon={solid('wrench')}
-                                       click={() => nav('editors/player-info')}/>
-                            <KuiButton text={'Edit Licences'} type={'default'} icon={solid('wrench')}
-                                       click={() => nav('editors/licences')}/>
-                            <KuiButton text={'Edit Date'} type={'default'} icon={solid('wrench')}
-                                       click={() => nav('editors/date')}/>
+                            {Object.keys(editors).map(key => editors[key]).map(editor => (
+                                <KuiButton key={editor.route} text={editor.title} type={'default'} icon={editor.icon}
+                                           click={() => nav(`editors/${editor.route}`)}/>
+                            ))}
                         </div>
                         <div className={'w-full flex flex-col gap-6'}>
                             <KuiButton fw text={'Settings'} icon={solid('cogs')} click={() => nav('settings')}/>

@@ -10,7 +10,7 @@ interface Props<T> {
     subTitle: string,
     fileName: string,
     icon: IconProp,
-    children: (slot: Slot, saveData: T) => React.ReactNode
+    children: (slot: Slot, data: T, fileName: string) => React.ReactNode
 }
 
 export const EditorBase = <T extends unknown>({title, subTitle, fileName, icon, children}: Props<T>) => {
@@ -27,15 +27,23 @@ export const EditorBase = <T extends unknown>({title, subTitle, fileName, icon, 
         saveService
             .getData<T>(slot.slotName, fileName)
             .then(setData);
-    }, [slot]);
+    }, [slot, fileName]);
 
     return (
         <>
             <KuiHeader main={title} sub={subTitle} icon={icon}/>
             <div className={'flex flex-col gap-6 p-6'}>
                 <SlotPicker slotPicked={setSlot}/>
-                {(slot && data) && children(slot, data)}
+                {(slot && data) && children(slot, data, fileName)}
             </div>
         </>
     )
+}
+
+type RenderChildrenProps = {
+    children: any
+}
+
+const RenderChildren: React.FC<RenderChildrenProps> = ({children}) => {
+    return children;
 }

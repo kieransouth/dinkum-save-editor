@@ -1,15 +1,13 @@
-import {KuiTextInput} from "../../kui/KuiTextInput";
-import {KuiNumberInput} from "../../kui/KuiNumberInput";
 import React, {useState} from "react";
-import {Slot} from "../../../models/slot";
 import {PlayerInv, playerInvSchema} from "../../../models/saves/playerInv";
-import {KuiButton} from "../../kui/KuiButton";
-import {KuiNotice} from "../../kui/KuiNotice";
 import saveService from "../../../services/saveService";
+import {KuiNumberInput} from "../../kui/KuiNumberInput";
+import {EditorFieldsProps} from "../../../models/editor";
+import {KuiNotice} from "../../kui/KuiNotice";
+import {KuiButton} from "../../kui/KuiButton";
+import {KuiTextInput} from "../../kui/KuiTextInput";
 
-type Props = { slot: Slot, data: PlayerInv };
-
-export const PlayerEditorFields: React.FC<Props> = ({slot, data}) => {
+export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot, data}) => {
     const [error, setError] = useState<Error>();
 
     const [playerName, setPlayerName] = useState<string>(data.playerName);
