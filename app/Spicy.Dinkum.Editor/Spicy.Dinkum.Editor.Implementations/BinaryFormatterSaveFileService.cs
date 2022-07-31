@@ -1,16 +1,19 @@
-using System.Reflection;
+#region
+
 using System.Runtime.Serialization.Formatters.Binary;
 using Newtonsoft.Json;
 using Spicy.Dinkum.Editor.Abstractions;
 using Spicy.Dinkum.Editor.Abstractions.Models;
 using Spicy.Dinkum.Editor.Implementations.Models;
 
+#endregion
+
 namespace Spicy.Dinkum.Editor.Implementations;
 
 public class BinaryFormatterSaveFileService : ISaveFileService
 {
-    private readonly ISettingsService _settingsService;
     private readonly IDictionary<string, Type> _fileNameTypeMap;
+    private readonly ISettingsService _settingsService;
 
     public BinaryFormatterSaveFileService(ISettingsService settingsService)
     {
@@ -41,7 +44,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
             ["townSave"] = CreateAccessor("TownManagerSave"),
             ["townStatus"] = CreateAccessor("TownStatusSave"),
             ["unlocked"] = CreateAccessor("RecipesUnlockedSave"),
-            ["vehicleInfo"] = CreateAccessor("VehicleSave"),
+            ["vehicleInfo"] = CreateAccessor("VehicleSave")
         };
     }
 
@@ -57,25 +60,6 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         return Directory
             .GetDirectories(settings.savesDirectory, "Slot*")
             .Select(GetSummary);
-    }
-
-    private ISaveFileSummaryModel? GetSummary(string slotDirectory)
-    {
-        var deserialised = ReadBinaryFile(slotDirectory, "playerInfo");
-
-        if (deserialised is not PlayerInv playerInv)
-        {
-            return null;
-        }
-
-        return new SaveFileSummaryModel
-        {
-            slotName = new DirectoryInfo(slotDirectory).Name,
-            islandName = playerInv.islandName,
-            playerName = playerInv.playerName,
-            money = playerInv.money,
-            savedTime = DateTimeOffset.FromUnixTimeSeconds(playerInv.savedTime)
-        };
     }
 
     public object? ReadBinaryFile(string slotDirectory, string fileName)
@@ -106,7 +90,7 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         }
         catch (Exception exception)
         {
-           return null;
+            return null;
         }
     }
 
@@ -146,6 +130,25 @@ public class BinaryFormatterSaveFileService : ISaveFileService
         {
             // ignored
         }
+    }
+
+    private ISaveFileSummaryModel? GetSummary(string slotDirectory)
+    {
+        var deserialised = ReadBinaryFile(slotDirectory, "playerInfo");
+
+        if (deserialised is not PlayerInv playerInv)
+        {
+            return null;
+        }
+
+        return new SaveFileSummaryModel
+        {
+            slotName = new DirectoryInfo(slotDirectory).Name,
+            islandName = playerInv.islandName,
+            playerName = playerInv.playerName,
+            money = playerInv.money,
+            savedTime = DateTimeOffset.FromUnixTimeSeconds(playerInv.savedTime)
+        };
     }
 
     private Type CreateAccessor(string typeName)

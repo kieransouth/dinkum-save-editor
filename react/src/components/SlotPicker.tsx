@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Slot} from "../models/slot";
 import slotService from "../services/slotService";
-import moment from "moment";
-import {KuiSelect} from "./kui/KuiSelect";
 import {SlotChoice} from "./SlotChoice";
 import {KuiSpinner} from "./kui/KuiSpinner";
 import {KuiNotice} from "./kui/KuiNotice";

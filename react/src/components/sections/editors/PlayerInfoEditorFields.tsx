@@ -7,7 +7,7 @@ import {KuiNotice} from "../../kui/KuiNotice";
 import {KuiButton} from "../../kui/KuiButton";
 import {KuiTextInput} from "../../kui/KuiTextInput";
 
-export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot, data}) => {
+export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot, data, fileName}) => {
     const [error, setError] = useState<Error>();
 
     const [playerName, setPlayerName] = useState<string>(data.playerName);
@@ -31,7 +31,7 @@ export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot
                 stamina,
                 health
             })
-            .then(validatedData => saveService.saveData<PlayerInv>(slot.slotName, 'playerInfo.dat', validatedData))
+            .then(validatedData => saveService.saveData<PlayerInv>(slot.slotName, fileName, validatedData))
             .catch(setError);
     }
 

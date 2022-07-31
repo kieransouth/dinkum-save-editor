@@ -1,16 +1,16 @@
+#region
+
 using Chromely.Core.Network;
 using Spicy.Dinkum.Editor.Attributes;
 using Spicy.Dinkum.Editor.Models.File;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor.Controllers;
 
 [Controller("file")]
 internal class FileController : ChromelyController
 {
-    public FileController()
-    {
-    }
-
     [Route("get")]
     public FileListModel? Get(string? directory)
     {

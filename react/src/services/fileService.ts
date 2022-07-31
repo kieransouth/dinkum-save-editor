@@ -1,4 +1,3 @@
-import {FileArray, FileData} from "chonky";
 import axios from "axios";
 import {FileResponse} from "../models/file";
 import alertService from "./alertService";

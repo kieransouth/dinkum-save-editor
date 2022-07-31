@@ -1,8 +1,12 @@
+#region
+
 using Chromely;
 using Chromely.Browser;
 using Microsoft.Extensions.DependencyInjection;
 using Spicy.Dinkum.Editor.Abstractions;
 using Spicy.Dinkum.Editor.Implementations;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor;
 

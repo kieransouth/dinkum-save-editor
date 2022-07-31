@@ -8,19 +8,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Chromely" Version="5.2.101" />
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Chromely" Version="5.2.101"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Spicy.Dinkum.Editor.Abstractions\Spicy.Dinkum.Editor.Abstractions.csproj" />
-      <ProjectReference Include="..\Spicy.Dinkum.Editor.Implementations\Spicy.Dinkum.Editor.Implementations.csproj" />
+        <ProjectReference Include="..\Spicy.Dinkum.Editor.Abstractions\Spicy.Dinkum.Editor.Abstractions.csproj"/>
+        <ProjectReference Include="..\Spicy.Dinkum.Editor.Implementations\Spicy.Dinkum.Editor.Implementations.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="Assembly-CSharp">
-        <HintPath>F:\SteamLibrary\steamapps\common\Dinkum\Dinkum_Data\Managed\Assembly-CSharp.dll</HintPath>
-      </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>F:\SteamLibrary\steamapps\common\Dinkum\Dinkum_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>

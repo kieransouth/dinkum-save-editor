@@ -1,5 +1,9 @@
-﻿using System.Text.Json;
+﻿#region
+
+using System.Text.Json;
 using Spicy.Dinkum.Editor.Abstractions;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor.Implementations;
 

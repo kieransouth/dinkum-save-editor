@@ -1,6 +1,5 @@
 import {Slot} from "./slot";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
-import React from "react";
 
 export type EditorFieldsProps<T> = { slot: Slot, data: T, fileName: string };
 

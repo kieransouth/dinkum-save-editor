@@ -1,15 +1,19 @@
+#region
+
 using Chromely.Core.Network;
 using Spicy.Dinkum.Editor.Abstractions;
 using Spicy.Dinkum.Editor.Attributes;
 using Spicy.Dinkum.Editor.Implementations.Models;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor.Controllers;
 
 [Controller("settings")]
 internal class SettingsController : ChromelyController
 {
-    private readonly ISettingsService _settingsService;
     private readonly SettingsModel _defaultSettings;
+    private readonly ISettingsService _settingsService;
 
     public SettingsController(ISettingsService settingsService)
     {

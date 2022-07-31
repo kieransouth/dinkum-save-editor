@@ -1,7 +1,11 @@
-﻿using Chromely.Browser;
+﻿#region
+
+using Chromely.Browser;
 using Chromely.Core;
 using Chromely.Core.Configuration;
 using Chromely.NativeHosts;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor;
 

@@ -1,7 +1,11 @@
+#region
+
 using Chromely.Core.Network;
 using Spicy.Dinkum.Editor.Abstractions;
 using Spicy.Dinkum.Editor.Abstractions.Models;
 using Spicy.Dinkum.Editor.Attributes;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor.Controllers;
 
@@ -16,5 +20,8 @@ public class SlotController : ChromelyController
     }
 
     [Route("list")]
-    public IEnumerable<ISaveFileSummaryModel?>? ListSlots() => _saveFileService.GetSlots();
+    public IEnumerable<ISaveFileSummaryModel?>? ListSlots()
+    {
+        return _saveFileService.GetSlots();
+    }
 }

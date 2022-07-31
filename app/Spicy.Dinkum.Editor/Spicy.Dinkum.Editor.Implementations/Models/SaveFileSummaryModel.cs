@@ -1,11 +1,15 @@
+#region
+
 using Spicy.Dinkum.Editor.Abstractions.Models;
+
+#endregion
 
 namespace Spicy.Dinkum.Editor.Implementations.Models;
 
 public class SaveFileSummaryModel : ISaveFileSummaryModel
 {
     public string? slotName { get; set; }
-    
+
     public string islandName { get; set; } = null!;
 
     public string playerName { get; set; } = null!;

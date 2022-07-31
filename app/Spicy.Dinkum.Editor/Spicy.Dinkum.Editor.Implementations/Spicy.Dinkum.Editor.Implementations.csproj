@@ -7,17 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Spicy.Dinkum.Editor.Abstractions\Spicy.Dinkum.Editor.Abstractions.csproj" />
+        <ProjectReference Include="..\Spicy.Dinkum.Editor.Abstractions\Spicy.Dinkum.Editor.Abstractions.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="Assembly-CSharp">
-        <HintPath>F:\SteamLibrary\steamapps\common\Dinkum\Dinkum_Data\Managed\Assembly-CSharp.dll</HintPath>
-      </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>F:\SteamLibrary\steamapps\common\Dinkum\Dinkum_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>
