@@ -1,0 +1,4527 @@
+[
+  {
+    "ItemId": 0,
+    "SpriteName": "allUI_45",
+    "ItemName": "Basic Axe"
+  },
+  {
+    "ItemId": 1,
+    "SpriteName": "allUI_20",
+    "ItemName": "Boomerang"
+  },
+  {
+    "ItemId": 2,
+    "SpriteName": "allUI_206",
+    "ItemName": "Bug Net"
+  },
+  {
+    "ItemId": 3,
+    "SpriteName": "allUI_185",
+    "ItemName": "Chainsaw"
+  },
+  {
+    "ItemId": 4,
+    "SpriteName": "allUI_218",
+    "ItemName": "Fishing Rod"
+  },
+  {
+    "ItemId": 5,
+    "SpriteName": "allUI_175",
+    "ItemName": "Shovel of Dirt"
+  },
+  {
+    "ItemId": 6,
+    "SpriteName": "allUI_174",
+    "ItemName": "Shovel"
+  },
+  {
+    "ItemId": 7,
+    "SpriteName": "allUI_238",
+    "ItemName": "Hoe"
+  },
+  {
+    "ItemId": 8,
+    "SpriteName": "allUI_31",
+    "ItemName": "Basic Pickaxe"
+  },
+  {
+    "ItemId": 9,
+    "SpriteName": "allUI_200",
+    "ItemName": "Torch"
+  },
+  {
+    "ItemId": 10,
+    "SpriteName": "allUI_239",
+    "ItemName": "Watering Can"
+  },
+  {
+    "ItemId": 11,
+    "SpriteName": "allUI_141",
+    "ItemName": "Wooden Bat"
+  },
+  {
+    "ItemId": 12,
+    "SpriteName": "allUI_234",
+    "ItemName": "Bag of Cement"
+  },
+  {
+    "ItemId": 13,
+    "SpriteName": "allUI_220",
+    "ItemName": "BBQ"
+  },
+  {
+    "ItemId": 14,
+    "SpriteName": "allUI_190",
+    "ItemName": "Bone"
+  },
+  {
+    "ItemId": 15,
+    "SpriteName": "allUI_233",
+    "ItemName": "Brick Path"
+  },
+  {
+    "ItemId": 16,
+    "SpriteName": "allUI_201",
+    "ItemName": "Stone Steps"
+  },
+  {
+    "ItemId": 17,
+    "SpriteName": "allUI_197",
+    "ItemName": "Bush Lime"
+  },
+  {
+    "ItemId": 18,
+    "SpriteName": "allUI_196",
+    "ItemName": "Camp Fire"
+  },
+  {
+    "ItemId": 19,
+    "SpriteName": "allUI_205",
+    "ItemName": "Cooked Meat"
+  },
+  {
+    "ItemId": 20,
+    "SpriteName": "allUI_207",
+    "ItemName": "Funnel Web Spider"
+  },
+  {
+    "ItemId": 21,
+    "SpriteName": "allUI_189",
+    "ItemName": "Meat"
+  },
+  {
+    "ItemId": 22,
+    "SpriteName": "allUI_216",
+    "ItemName": "Nails"
+  },
+  {
+    "ItemId": 23,
+    "SpriteName": "allUI_204",
+    "ItemName": "Shiny Stone"
+  },
+  {
+    "ItemId": 24,
+    "SpriteName": "icons_11",
+    "ItemName": "???"
+  },
+  {
+    "ItemId": 25,
+    "SpriteName": "allUI2_185",
+    "ItemName": "Garden Light"
+  },
+  {
+    "ItemId": 26,
+    "SpriteName": "allUI_217",
+    "ItemName": "Stone"
+  },
+  {
+    "ItemId": 27,
+    "SpriteName": "allUI_188",
+    "ItemName": "Stone Grinder"
+  },
+  {
+    "ItemId": 28,
+    "SpriteName": "allUI_198",
+    "ItemName": "Sugar Cane"
+  },
+  {
+    "ItemId": 29,
+    "SpriteName": "allUI_221",
+    "ItemName": "Ulysses Butterfly"
+  },
+  {
+    "ItemId": 30,
+    "SpriteName": "allUI_2",
+    "ItemName": "Wooden Crate"
+  },
+  {
+    "ItemId": 31,
+    "SpriteName": "ui_7",
+    "ItemName": "Windmill Plan"
+  },
+  {
+    "ItemId": 32,
+    "SpriteName": "allUI_219",
+    "ItemName": "Palm Wood Fence"
+  },
+  {
+    "ItemId": 33,
+    "SpriteName": "allUI_89",
+    "ItemName": "Gum Log"
+  },
+  {
+    "ItemId": 34,
+    "SpriteName": "allUI_1",
+    "ItemName": "Wooden Torch"
+  },
+  {
+    "ItemId": 35,
+    "SpriteName": "deedsIcon_0",
+    "ItemName": "Crafting Lab Deed"
+  },
+  {
+    "ItemId": 36,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "Your House Deed"
+  },
+  {
+    "ItemId": 37,
+    "SpriteName": "deedsIcon_2",
+    "ItemName": "Post Office Deed"
+  },
+  {
+    "ItemId": 38,
+    "SpriteName": "ui_7",
+    "ItemName": "PowerLine"
+  },
+  {
+    "ItemId": 39,
+    "SpriteName": "deedsIcon_3",
+    "ItemName": "Shop Deed"
+  },
+  {
+    "ItemId": 40,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Aussie Hat"
+  },
+  {
+    "ItemId": 41,
+    "SpriteName": "ui2_13",
+    "ItemName": "Black Boots"
+  },
+  {
+    "ItemId": 42,
+    "SpriteName": "ui2_12",
+    "ItemName": "Blue Jeans"
+  },
+  {
+    "ItemId": 43,
+    "SpriteName": "ui2_13",
+    "ItemName": "Tradie Boots"
+  },
+  {
+    "ItemId": 44,
+    "SpriteName": "ui2_12",
+    "ItemName": "Tradie Pants"
+  },
+  {
+    "ItemId": 45,
+    "SpriteName": "ui2_12",
+    "ItemName": "Dark Shorts"
+  },
+  {
+    "ItemId": 46,
+    "SpriteName": "ui2_10",
+    "ItemName": "Purple Shirt"
+  },
+  {
+    "ItemId": 47,
+    "SpriteName": "ui2_10",
+    "ItemName": "Red Flanney"
+  },
+  {
+    "ItemId": 48,
+    "SpriteName": "allUI_117",
+    "ItemName": "Barcoo Grunter"
+  },
+  {
+    "ItemId": 49,
+    "SpriteName": "allUI_115",
+    "ItemName": "Barramundi"
+  },
+  {
+    "ItemId": 50,
+    "SpriteName": "allUI_118",
+    "ItemName": "River Bass"
+  },
+  {
+    "ItemId": 51,
+    "SpriteName": "fishUi_3",
+    "ItemName": "Cooked Fish"
+  },
+  {
+    "ItemId": 52,
+    "SpriteName": "allUI_120",
+    "ItemName": "Jungle Perch"
+  },
+  {
+    "ItemId": 53,
+    "SpriteName": "allUI_0",
+    "ItemName": "Purple Seat"
+  },
+  {
+    "ItemId": 54,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Double Bed"
+  },
+  {
+    "ItemId": 55,
+    "SpriteName": "allUI_0",
+    "ItemName": "Coffee Table"
+  },
+  {
+    "ItemId": 56,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Seat"
+  },
+  {
+    "ItemId": 57,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Couch"
+  },
+  {
+    "ItemId": 58,
+    "SpriteName": "allUI_0",
+    "ItemName": "Small Round Table"
+  },
+  {
+    "ItemId": 59,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Cabinet"
+  },
+  {
+    "ItemId": 60,
+    "SpriteName": "allUI_199",
+    "ItemName": "Sugar Cane Seeds"
+  },
+  {
+    "ItemId": 61,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Dog Hat"
+  },
+  {
+    "ItemId": 62,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Holiday Hat"
+  },
+  {
+    "ItemId": 63,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Blue Beanie"
+  },
+  {
+    "ItemId": 64,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Top Hat"
+  },
+  {
+    "ItemId": 65,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Red Baseball Cap"
+  },
+  {
+    "ItemId": 66,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Yellow Bucket Hat"
+  },
+  {
+    "ItemId": 67,
+    "SpriteName": "ui_7",
+    "ItemName": "Welcome Sign"
+  },
+  {
+    "ItemId": 68,
+    "SpriteName": "ui2_12",
+    "ItemName": "Business Pants"
+  },
+  {
+    "ItemId": 69,
+    "SpriteName": "ui2_10",
+    "ItemName": "Business Shirt"
+  },
+  {
+    "ItemId": 70,
+    "SpriteName": "ui2_13",
+    "ItemName": "Business Shoes"
+  },
+  {
+    "ItemId": 71,
+    "SpriteName": "ui2_12",
+    "ItemName": "Green Pants"
+  },
+  {
+    "ItemId": 72,
+    "SpriteName": "ui2_10",
+    "ItemName": "Green Sweater"
+  },
+  {
+    "ItemId": 73,
+    "SpriteName": "ui2_13",
+    "ItemName": "Green Shoes"
+  },
+  {
+    "ItemId": 74,
+    "SpriteName": "ui2_10",
+    "ItemName": "Holiday Shirt"
+  },
+  {
+    "ItemId": 75,
+    "SpriteName": "ui2_13",
+    "ItemName": "Thongs"
+  },
+  {
+    "ItemId": 76,
+    "SpriteName": "ui2_12",
+    "ItemName": "Holiday Shorts"
+  },
+  {
+    "ItemId": 77,
+    "SpriteName": "ui2_10",
+    "ItemName": "Tradie Shirt"
+  },
+  {
+    "ItemId": 78,
+    "SpriteName": "ui2_13",
+    "ItemName": "Kahkey Boots"
+  },
+  {
+    "ItemId": 79,
+    "SpriteName": "ui2_12",
+    "ItemName": "Kahkey Shorts"
+  },
+  {
+    "ItemId": 80,
+    "SpriteName": "ui2_10",
+    "ItemName": "Kahkey"
+  },
+  {
+    "ItemId": 81,
+    "SpriteName": "deedsIcon_1",
+    "ItemName": "Clothing Shop Deed"
+  },
+  {
+    "ItemId": 82,
+    "SpriteName": "ui2_12",
+    "ItemName": "Blue Shorts"
+  },
+  {
+    "ItemId": 83,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue and Yellow Shirt"
+  },
+  {
+    "ItemId": 84,
+    "SpriteName": "ui2_13",
+    "ItemName": "Red Sneakers"
+  },
+  {
+    "ItemId": 85,
+    "SpriteName": "allUI_3",
+    "ItemName": "Blue Dress"
+  },
+  {
+    "ItemId": 86,
+    "SpriteName": "allUI_3",
+    "ItemName": "Fairest Dress"
+  },
+  {
+    "ItemId": 87,
+    "SpriteName": "ui2_13",
+    "ItemName": "White Flats"
+  },
+  {
+    "ItemId": 88,
+    "SpriteName": "ui2_10",
+    "ItemName": "Mustard Coat"
+  },
+  {
+    "ItemId": 89,
+    "SpriteName": "ui2_13",
+    "ItemName": "White Sneakers"
+  },
+  {
+    "ItemId": 90,
+    "SpriteName": "ui2_12",
+    "ItemName": "Ripped Jeans"
+  },
+  {
+    "ItemId": 91,
+    "SpriteName": "allUI_3",
+    "ItemName": "White Dress"
+  },
+  {
+    "ItemId": 87,
+    "SpriteName": "ui2_13",
+    "ItemName": "White Flats"
+  },
+  {
+    "ItemId": 93,
+    "SpriteName": "allUI_3",
+    "ItemName": "Red Dress"
+  },
+  {
+    "ItemId": 94,
+    "SpriteName": "ui2_13",
+    "ItemName": "Red Flats"
+  },
+  {
+    "ItemId": 95,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pinstripe Jacket"
+  },
+  {
+    "ItemId": 96,
+    "SpriteName": "ui2_12",
+    "ItemName": "Pinstripe Pants"
+  },
+  {
+    "ItemId": 97,
+    "SpriteName": "allUI_4",
+    "ItemName": "Grasshopper"
+  },
+  {
+    "ItemId": 98,
+    "SpriteName": "allUI_5",
+    "ItemName": "Common Blue Tail"
+  },
+  {
+    "ItemId": 99,
+    "SpriteName": "allUI_202",
+    "ItemName": "Palm Wood Bridge"
+  },
+  {
+    "ItemId": 100,
+    "SpriteName": "allUI_6",
+    "ItemName": "Fly"
+  },
+  {
+    "ItemId": 101,
+    "SpriteName": "allUI_7",
+    "ItemName": "Cockroach"
+  },
+  {
+    "ItemId": 102,
+    "SpriteName": "allUI_8",
+    "ItemName": "Yellow Wattle Flower"
+  },
+  {
+    "ItemId": 103,
+    "SpriteName": "allUI_10",
+    "ItemName": "Metal Detector"
+  },
+  {
+    "ItemId": 104,
+    "SpriteName": "allUI_9",
+    "ItemName": "Opal"
+  },
+  {
+    "ItemId": 105,
+    "SpriteName": "allUI_11",
+    "ItemName": "Copper Ore"
+  },
+  {
+    "ItemId": 106,
+    "SpriteName": "allUI_12",
+    "ItemName": "Iron Ore"
+  },
+  {
+    "ItemId": 107,
+    "SpriteName": "allUI_13",
+    "ItemName": "Quartz Crystal"
+  },
+  {
+    "ItemId": 108,
+    "SpriteName": "allUI_15",
+    "ItemName": "Peacock Spider"
+  },
+  {
+    "ItemId": 109,
+    "SpriteName": "allUI_14",
+    "ItemName": "Trogid"
+  },
+  {
+    "ItemId": 110,
+    "SpriteName": "allUI_193",
+    "ItemName": "StreetLamp"
+  },
+  {
+    "ItemId": 111,
+    "SpriteName": "allUI_16",
+    "ItemName": "Cabbage"
+  },
+  {
+    "ItemId": 112,
+    "SpriteName": "allUI_81",
+    "ItemName": "Cabbage Seeds"
+  },
+  {
+    "ItemId": 113,
+    "SpriteName": "allUI_19",
+    "ItemName": "Iron Bar"
+  },
+  {
+    "ItemId": 114,
+    "SpriteName": "allUI_18",
+    "ItemName": "Copper Bar"
+  },
+  {
+    "ItemId": 115,
+    "SpriteName": "allUI_22",
+    "ItemName": "Furnace"
+  },
+  {
+    "ItemId": 116,
+    "SpriteName": "allUI_17",
+    "ItemName": "Carrot"
+  },
+  {
+    "ItemId": 117,
+    "SpriteName": "allUI_79",
+    "ItemName": "Carrot Seeds"
+  },
+  {
+    "ItemId": 118,
+    "SpriteName": "allUI_21",
+    "ItemName": "Iron Boomerang"
+  },
+  {
+    "ItemId": 119,
+    "SpriteName": "allUI_20",
+    "ItemName": "Copper Boomerang"
+  },
+  {
+    "ItemId": 120,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Green Beanie"
+  },
+  {
+    "ItemId": 121,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Red Beanie"
+  },
+  {
+    "ItemId": 122,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Blue Bucket Hat"
+  },
+  {
+    "ItemId": 123,
+    "SpriteName": "allUI_23",
+    "ItemName": "Corn"
+  },
+  {
+    "ItemId": 124,
+    "SpriteName": "allUI_78",
+    "ItemName": "Corn Seeds"
+  },
+  {
+    "ItemId": 125,
+    "SpriteName": "deedsIcon_4",
+    "ItemName": "Plant Shop Deed"
+  },
+  {
+    "ItemId": 126,
+    "SpriteName": "ui2_15",
+    "ItemName": "Fast Watering Can"
+  },
+  {
+    "ItemId": 127,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Single Bed"
+  },
+  {
+    "ItemId": 128,
+    "SpriteName": "allUI_239",
+    "ItemName": "Watering Can"
+  },
+  {
+    "ItemId": 129,
+    "SpriteName": "deedsIcon_7",
+    "ItemName": "Mine Deed"
+  },
+  {
+    "ItemId": 130,
+    "SpriteName": "allUI2_82",
+    "ItemName": "Miners Helmet"
+  },
+  {
+    "ItemId": 131,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Chair"
+  },
+  {
+    "ItemId": 132,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Table"
+  },
+  {
+    "ItemId": 133,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Bedside Table"
+  },
+  {
+    "ItemId": 134,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Chest Of Drawers"
+  },
+  {
+    "ItemId": 135,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Cabinet"
+  },
+  {
+    "ItemId": 136,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Single Bed"
+  },
+  {
+    "ItemId": 137,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish ArmChair"
+  },
+  {
+    "ItemId": 138,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Sofa"
+  },
+  {
+    "ItemId": 139,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Chair"
+  },
+  {
+    "ItemId": 140,
+    "SpriteName": "allUI_0",
+    "ItemName": "Purple Couch"
+  },
+  {
+    "ItemId": 141,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Chair"
+  },
+  {
+    "ItemId": 142,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Coffee Table"
+  },
+  {
+    "ItemId": 143,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Dinner Table"
+  },
+  {
+    "ItemId": 144,
+    "SpriteName": "allUI_0",
+    "ItemName": "Long White Coffee Table"
+  },
+  {
+    "ItemId": 145,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Sofa"
+  },
+  {
+    "ItemId": 146,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Bed"
+  },
+  {
+    "ItemId": 147,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Bedside Table"
+  },
+  {
+    "ItemId": 148,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Drawers"
+  },
+  {
+    "ItemId": 149,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Dresser"
+  },
+  {
+    "ItemId": 150,
+    "SpriteName": "deedsIcon_5",
+    "ItemName": "Furniture Shop Deed"
+  },
+  {
+    "ItemId": 151,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Bed"
+  },
+  {
+    "ItemId": 152,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Bedside Table"
+  },
+  {
+    "ItemId": 153,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Chair"
+  },
+  {
+    "ItemId": 154,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Coffee Table"
+  },
+  {
+    "ItemId": 155,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Drawers"
+  },
+  {
+    "ItemId": 156,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Kitchen Table"
+  },
+  {
+    "ItemId": 157,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Lamp"
+  },
+  {
+    "ItemId": 158,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Ottoman"
+  },
+  {
+    "ItemId": 159,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dainty Sofa"
+  },
+  {
+    "ItemId": 160,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Armchair"
+  },
+  {
+    "ItemId": 161,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Ottoman"
+  },
+  {
+    "ItemId": 162,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Bed"
+  },
+  {
+    "ItemId": 163,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Bedside Table."
+  },
+  {
+    "ItemId": 164,
+    "SpriteName": "allUI_0",
+    "ItemName": "White Chest of Drawers"
+  },
+  {
+    "ItemId": 165,
+    "SpriteName": "allUI_0",
+    "ItemName": "Fern Vase"
+  },
+  {
+    "ItemId": 166,
+    "SpriteName": "allUI_0",
+    "ItemName": "Purple Vase"
+  },
+  {
+    "ItemId": 167,
+    "SpriteName": "allUI_0",
+    "ItemName": "Yellow Wattle Vase"
+  },
+  {
+    "ItemId": 168,
+    "SpriteName": "allUI_0",
+    "ItemName": "Kitchen Cabinet"
+  },
+  {
+    "ItemId": 169,
+    "SpriteName": "allUI_0",
+    "ItemName": "Kitchen Oven"
+  },
+  {
+    "ItemId": 170,
+    "SpriteName": "allUI_0",
+    "ItemName": "Kitchen Sink"
+  },
+  {
+    "ItemId": 171,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Chair"
+  },
+  {
+    "ItemId": 172,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Table"
+  },
+  {
+    "ItemId": 173,
+    "SpriteName": "allUI_0",
+    "ItemName": "Stylish Lamp"
+  },
+  {
+    "ItemId": 174,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal ArmChair"
+  },
+  {
+    "ItemId": 175,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Bed"
+  },
+  {
+    "ItemId": 176,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Bedside Table"
+  },
+  {
+    "ItemId": 177,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Chair"
+  },
+  {
+    "ItemId": 178,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Lamp"
+  },
+  {
+    "ItemId": 179,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Sofa"
+  },
+  {
+    "ItemId": 180,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Table"
+  },
+  {
+    "ItemId": 181,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Drawers"
+  },
+  {
+    "ItemId": 182,
+    "SpriteName": "allUI_35",
+    "ItemName": "Feather"
+  },
+  {
+    "ItemId": 183,
+    "SpriteName": "allUI_32",
+    "ItemName": "Copper Pickaxe"
+  },
+  {
+    "ItemId": 184,
+    "SpriteName": "allUI_33",
+    "ItemName": "Iron Pickaxe"
+  },
+  {
+    "ItemId": 185,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Space Helmet"
+  },
+  {
+    "ItemId": 186,
+    "SpriteName": "ui2_12",
+    "ItemName": "Space Suit Pants"
+  },
+  {
+    "ItemId": 187,
+    "SpriteName": "ui2_10",
+    "ItemName": "Space Suit Shirt"
+  },
+  {
+    "ItemId": 188,
+    "SpriteName": "ui2_13",
+    "ItemName": "Space Suit Shoes"
+  },
+  {
+    "ItemId": 189,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Pink Baseball Cap"
+  },
+  {
+    "ItemId": 190,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Pants"
+  },
+  {
+    "ItemId": 191,
+    "SpriteName": "ui2_10",
+    "ItemName": "Black Shirt"
+  },
+  {
+    "ItemId": 192,
+    "SpriteName": "ui2_13",
+    "ItemName": "Black Sneakers"
+  },
+  {
+    "ItemId": 193,
+    "SpriteName": "ui2_12",
+    "ItemName": "Daisy Shorts"
+  },
+  {
+    "ItemId": 194,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pink Off Shoulder"
+  },
+  {
+    "ItemId": 195,
+    "SpriteName": "ui2_13",
+    "ItemName": "Strapped Sandals"
+  },
+  {
+    "ItemId": 196,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Green Baseball Cap"
+  },
+  {
+    "ItemId": 197,
+    "SpriteName": "allUI_36",
+    "ItemName": "Nautilus Shell"
+  },
+  {
+    "ItemId": 198,
+    "SpriteName": "allUI_37",
+    "ItemName": "Scallop Shell"
+  },
+  {
+    "ItemId": 199,
+    "SpriteName": "allUI_38",
+    "ItemName": "Syrinx Shell"
+  },
+  {
+    "ItemId": 200,
+    "SpriteName": "allUI_26",
+    "ItemName": "Banded Morwong"
+  },
+  {
+    "ItemId": 201,
+    "SpriteName": "allUI_27",
+    "ItemName": "Bluefish"
+  },
+  {
+    "ItemId": 202,
+    "SpriteName": "allUI_116",
+    "ItemName": "Garfish"
+  },
+  {
+    "ItemId": 203,
+    "SpriteName": "allUI_30",
+    "ItemName": "Golden Perch"
+  },
+  {
+    "ItemId": 204,
+    "SpriteName": "allUI_119",
+    "ItemName": "Mangrove Jack"
+  },
+  {
+    "ItemId": 205,
+    "SpriteName": "allUI_29",
+    "ItemName": "Luderick"
+  },
+  {
+    "ItemId": 206,
+    "SpriteName": "allUI_28",
+    "ItemName": "Blue Spot Flathead"
+  },
+  {
+    "ItemId": 207,
+    "SpriteName": "allUI_25",
+    "ItemName": "Travalla"
+  },
+  {
+    "ItemId": 208,
+    "SpriteName": "allUI_24",
+    "ItemName": "Yellowfin Tuna"
+  },
+  {
+    "ItemId": 209,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pirate Coat"
+  },
+  {
+    "ItemId": 210,
+    "SpriteName": "allUI_39",
+    "ItemName": "Spinifex Tuft"
+  },
+  {
+    "ItemId": 211,
+    "SpriteName": "allUI_41",
+    "ItemName": "Raft"
+  },
+  {
+    "ItemId": 212,
+    "SpriteName": "allUI_40",
+    "ItemName": "Spinifex Resin"
+  },
+  {
+    "ItemId": 213,
+    "SpriteName": "allUI_42",
+    "ItemName": "Palm Wood"
+  },
+  {
+    "ItemId": 214,
+    "SpriteName": "allUI_43",
+    "ItemName": "Prickly Pear Flesh"
+  },
+  {
+    "ItemId": 215,
+    "SpriteName": "allUI_44",
+    "ItemName": "Cactus Figs"
+  },
+  {
+    "ItemId": 216,
+    "SpriteName": "allUI_46",
+    "ItemName": "Copper Axe"
+  },
+  {
+    "ItemId": 217,
+    "SpriteName": "allUI_47",
+    "ItemName": "Iron Axe"
+  },
+  {
+    "ItemId": 218,
+    "SpriteName": "allUI_49",
+    "ItemName": "Jump Charm"
+  },
+  {
+    "ItemId": 219,
+    "SpriteName": "allUI_50",
+    "ItemName": "Swim Charm"
+  },
+  {
+    "ItemId": 220,
+    "SpriteName": "allUI_51",
+    "ItemName": "Run Charm"
+  },
+  {
+    "ItemId": 221,
+    "SpriteName": "allUI_3",
+    "ItemName": "White Collar Dress"
+  },
+  {
+    "ItemId": 222,
+    "SpriteName": "allUI_3",
+    "ItemName": "Dark Blue Button Dress"
+  },
+  {
+    "ItemId": 223,
+    "SpriteName": "allUI_52",
+    "ItemName": "Crab Pot"
+  },
+  {
+    "ItemId": 224,
+    "SpriteName": "allUI_53",
+    "ItemName": "Mud Crab"
+  },
+  {
+    "ItemId": 225,
+    "SpriteName": "allUI_55",
+    "ItemName": "Honey"
+  },
+  {
+    "ItemId": 226,
+    "SpriteName": "allUI_54",
+    "ItemName": "Bee House"
+  },
+  {
+    "ItemId": 227,
+    "SpriteName": "allUI_56",
+    "ItemName": "Bee"
+  },
+  {
+    "ItemId": 228,
+    "SpriteName": "allUI_57",
+    "ItemName": "Queen Bee"
+  },
+  {
+    "ItemId": 229,
+    "SpriteName": "allUI_64",
+    "ItemName": "Red Back Spider"
+  },
+  {
+    "ItemId": 230,
+    "SpriteName": "allUI_59",
+    "ItemName": "Desert Scorpion"
+  },
+  {
+    "ItemId": 231,
+    "SpriteName": "allUI_60",
+    "ItemName": "Stink Bug"
+  },
+  {
+    "ItemId": 232,
+    "SpriteName": "allUI_58",
+    "ItemName": "Paper Wasp"
+  },
+  {
+    "ItemId": 233,
+    "SpriteName": "allUI_63",
+    "ItemName": "Birdwing Butterfly"
+  },
+  {
+    "ItemId": 234,
+    "SpriteName": "allUI_62",
+    "ItemName": "Swallow-tail Butterfly"
+  },
+  {
+    "ItemId": 235,
+    "SpriteName": "allUI_61",
+    "ItemName": "Harlequin Butterfly"
+  },
+  {
+    "ItemId": 236,
+    "SpriteName": "allUI_66",
+    "ItemName": "Slingshot"
+  },
+  {
+    "ItemId": 237,
+    "SpriteName": "allUI_65",
+    "ItemName": "Yabbie"
+  },
+  {
+    "ItemId": 238,
+    "SpriteName": "ui2_12",
+    "ItemName": "Pink Shots"
+  },
+  {
+    "ItemId": 239,
+    "SpriteName": "ui2_13",
+    "ItemName": "Pink Sneakers"
+  },
+  {
+    "ItemId": 240,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pink T-Shirt"
+  },
+  {
+    "ItemId": 241,
+    "SpriteName": "ui2_13",
+    "ItemName": "Blue Sneakers"
+  },
+  {
+    "ItemId": 242,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue T-Shirt"
+  },
+  {
+    "ItemId": 243,
+    "SpriteName": "allUI_3",
+    "ItemName": "Purple Dress"
+  },
+  {
+    "ItemId": 244,
+    "SpriteName": "ui2_13",
+    "ItemName": "Purple Flats"
+  },
+  {
+    "ItemId": 245,
+    "SpriteName": "ui2_12",
+    "ItemName": "Purple Pants"
+  },
+  {
+    "ItemId": 246,
+    "SpriteName": "allUI_67",
+    "ItemName": "Crocodile Tooth"
+  },
+  {
+    "ItemId": 247,
+    "SpriteName": "allUI_70",
+    "ItemName": "Glowing Mushroom"
+  },
+  {
+    "ItemId": 248,
+    "SpriteName": "allUI_69",
+    "ItemName": "Firefly"
+  },
+  {
+    "ItemId": 249,
+    "SpriteName": "allUI_68",
+    "ItemName": "Cricket"
+  },
+  {
+    "ItemId": 250,
+    "SpriteName": "allUI_72",
+    "ItemName": "Cement Path"
+  },
+  {
+    "ItemId": 251,
+    "SpriteName": "allUI_71",
+    "ItemName": "Brick Fence"
+  },
+  {
+    "ItemId": 252,
+    "SpriteName": "allUI_41",
+    "ItemName": "Ute"
+  },
+  {
+    "ItemId": 253,
+    "SpriteName": "ui2_13",
+    "ItemName": "Green Boots"
+  },
+  {
+    "ItemId": 254,
+    "SpriteName": "ui2_12",
+    "ItemName": "Brown Pants"
+  },
+  {
+    "ItemId": 255,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue Flannelette Shirt"
+  },
+  {
+    "ItemId": 256,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Pants"
+  },
+  {
+    "ItemId": 257,
+    "SpriteName": "ui2_10",
+    "ItemName": "Green Jacket"
+  },
+  {
+    "ItemId": 258,
+    "SpriteName": "ui2_12",
+    "ItemName": "Maroon Pants"
+  },
+  {
+    "ItemId": 259,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Adventure Hood"
+  },
+  {
+    "ItemId": 260,
+    "SpriteName": "ui2_13",
+    "ItemName": "Red Strapped Shoes"
+  },
+  {
+    "ItemId": 261,
+    "SpriteName": "allUI_3",
+    "ItemName": "Overall Dress"
+  },
+  {
+    "ItemId": 262,
+    "SpriteName": "ui2_12",
+    "ItemName": "Striped Tights"
+  },
+  {
+    "ItemId": 263,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Chef Hat"
+  },
+  {
+    "ItemId": 264,
+    "SpriteName": "allUI_73",
+    "ItemName": "Cements Steps"
+  },
+  {
+    "ItemId": 265,
+    "SpriteName": "ui_7",
+    "ItemName": "Water Tank Plan"
+  },
+  {
+    "ItemId": 266,
+    "SpriteName": "ui2_10",
+    "ItemName": "Chef Jacket"
+  },
+  {
+    "ItemId": 267,
+    "SpriteName": "ui2_12",
+    "ItemName": "Chef Pants"
+  },
+  {
+    "ItemId": 268,
+    "SpriteName": "ui2_12",
+    "ItemName": "Orange Shorts"
+  },
+  {
+    "ItemId": 269,
+    "SpriteName": "ui2_10",
+    "ItemName": "Orange T-Shirt"
+  },
+  {
+    "ItemId": 270,
+    "SpriteName": "ui2_13",
+    "ItemName": "Brown Sandals"
+  },
+  {
+    "ItemId": 271,
+    "SpriteName": "allUI_75",
+    "ItemName": "Hedge"
+  },
+  {
+    "ItemId": 272,
+    "SpriteName": "allUI_74",
+    "ItemName": "Roo Poo"
+  },
+  {
+    "ItemId": 273,
+    "SpriteName": "allUI_77",
+    "ItemName": "Wooden Lamp Post"
+  },
+  {
+    "ItemId": 274,
+    "SpriteName": "allUI_76",
+    "ItemName": "Palm Wood Gate"
+  },
+  {
+    "ItemId": 275,
+    "SpriteName": "allUI_82",
+    "ItemName": "Fertilizer"
+  },
+  {
+    "ItemId": 276,
+    "SpriteName": "secondCraftables_4",
+    "ItemName": "Wood Bridge Rail"
+  },
+  {
+    "ItemId": 277,
+    "SpriteName": "allUI_84",
+    "ItemName": "Bomb"
+  },
+  {
+    "ItemId": 278,
+    "SpriteName": "allUI2_61",
+    "ItemName": "Sprinkler"
+  },
+  {
+    "ItemId": 279,
+    "SpriteName": "allUI_85",
+    "ItemName": "Aviator Sunglasses"
+  },
+  {
+    "ItemId": 280,
+    "SpriteName": "allUI_85",
+    "ItemName": "Eye Patch"
+  },
+  {
+    "ItemId": 281,
+    "SpriteName": "allUI_85",
+    "ItemName": "Fake Mustache"
+  },
+  {
+    "ItemId": 282,
+    "SpriteName": "allUI_85",
+    "ItemName": "Modern Glasses"
+  },
+  {
+    "ItemId": 283,
+    "SpriteName": "allUI_85",
+    "ItemName": "Modern Sunglasses"
+  },
+  {
+    "ItemId": 284,
+    "SpriteName": "allUI_85",
+    "ItemName": "Monocle"
+  },
+  {
+    "ItemId": 285,
+    "SpriteName": "allUI_85",
+    "ItemName": "Old School Glasses"
+  },
+  {
+    "ItemId": 286,
+    "SpriteName": "allUI_85",
+    "ItemName": "Round Glasses"
+  },
+  {
+    "ItemId": 287,
+    "SpriteName": "allUI_85",
+    "ItemName": "Round Sunglasses"
+  },
+  {
+    "ItemId": 288,
+    "SpriteName": "allUI_85",
+    "ItemName": "Small Glasses"
+  },
+  {
+    "ItemId": 289,
+    "SpriteName": "allUI_85",
+    "ItemName": "Small Sunglasses"
+  },
+  {
+    "ItemId": 290,
+    "SpriteName": "allUI_85",
+    "ItemName": "Square Glasses"
+  },
+  {
+    "ItemId": 291,
+    "SpriteName": "allUI_85",
+    "ItemName": "Square Sunglasses"
+  },
+  {
+    "ItemId": 292,
+    "SpriteName": "allUI_85",
+    "ItemName": "Jolly Beard"
+  },
+  {
+    "ItemId": 293,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Jolly Hat"
+  },
+  {
+    "ItemId": 294,
+    "SpriteName": "ui2_12",
+    "ItemName": "Jolly Pants"
+  },
+  {
+    "ItemId": 295,
+    "SpriteName": "ui2_10",
+    "ItemName": "Jolly Shirt"
+  },
+  {
+    "ItemId": 296,
+    "SpriteName": "ui2_13",
+    "ItemName": "Jolly Shoes"
+  },
+  {
+    "ItemId": 297,
+    "SpriteName": "allUI_86",
+    "ItemName": "Bananas"
+  },
+  {
+    "ItemId": 298,
+    "SpriteName": "secondCraftables_0",
+    "ItemName": "Termite Nest"
+  },
+  {
+    "ItemId": 299,
+    "SpriteName": "allUI_162",
+    "ItemName": "Dink"
+  },
+  {
+    "ItemId": 300,
+    "SpriteName": "allUI_87",
+    "ItemName": "Apple"
+  },
+  {
+    "ItemId": 301,
+    "SpriteName": "allUI_88",
+    "ItemName": "Hard Wood Log"
+  },
+  {
+    "ItemId": 302,
+    "SpriteName": "allUI_168",
+    "ItemName": "Animal Trap"
+  },
+  {
+    "ItemId": 303,
+    "SpriteName": "allUI_94",
+    "ItemName": "Scythe"
+  },
+  {
+    "ItemId": 304,
+    "SpriteName": "allUI_90",
+    "ItemName": "Table Saw"
+  },
+  {
+    "ItemId": 305,
+    "SpriteName": "allUI_91",
+    "ItemName": "Gum Wood Plank"
+  },
+  {
+    "ItemId": 306,
+    "SpriteName": "allUI_92",
+    "ItemName": "Palm Wood Plank"
+  },
+  {
+    "ItemId": 307,
+    "SpriteName": "allUI_93",
+    "ItemName": "Hard Wood Plank"
+  },
+  {
+    "ItemId": 308,
+    "SpriteName": "allUI_95",
+    "ItemName": "Raw Drumstick"
+  },
+  {
+    "ItemId": 309,
+    "SpriteName": "allUI_96",
+    "ItemName": "Pearl"
+  },
+  {
+    "ItemId": 310,
+    "SpriteName": "allUI_97",
+    "ItemName": "Cooked Drumstick"
+  },
+  {
+    "ItemId": 311,
+    "SpriteName": "ui_6",
+    "ItemName": "Magic Shovel"
+  },
+  {
+    "ItemId": 312,
+    "SpriteName": "ui_6",
+    "ItemName": "Magic Shovel of Dirt"
+  },
+  {
+    "ItemId": 313,
+    "SpriteName": "allUI2_38",
+    "ItemName": "Grass Seed"
+  },
+  {
+    "ItemId": 314,
+    "SpriteName": "allUI_99",
+    "ItemName": "Palm Wood Path"
+  },
+  {
+    "ItemId": 315,
+    "SpriteName": "allUI_98",
+    "ItemName": "Palm Wood Steps"
+  },
+  {
+    "ItemId": 316,
+    "SpriteName": "allUI_101",
+    "ItemName": "Gum Nut"
+  },
+  {
+    "ItemId": 317,
+    "SpriteName": "allUI_100",
+    "ItemName": "Pine Cone"
+  },
+  {
+    "ItemId": 318,
+    "SpriteName": "allUI_102",
+    "ItemName": "Palm Tree Seed"
+  },
+  {
+    "ItemId": 319,
+    "SpriteName": "allUI2_74",
+    "ItemName": "Sleeping Bag"
+  },
+  {
+    "ItemId": 320,
+    "SpriteName": "allUI_104",
+    "ItemName": "Kale"
+  },
+  {
+    "ItemId": 321,
+    "SpriteName": "allUI_106",
+    "ItemName": "Kale Seeds"
+  },
+  {
+    "ItemId": 322,
+    "SpriteName": "allUI_105",
+    "ItemName": "Potato"
+  },
+  {
+    "ItemId": 323,
+    "SpriteName": "allUI_108",
+    "ItemName": "Potato Seeds"
+  },
+  {
+    "ItemId": 324,
+    "SpriteName": "allUI_103",
+    "ItemName": "Wheat"
+  },
+  {
+    "ItemId": 325,
+    "SpriteName": "allUI_107",
+    "ItemName": "Wheat Seeds"
+  },
+  {
+    "ItemId": 326,
+    "SpriteName": "allUI_109",
+    "ItemName": "Watermelon Seeds"
+  },
+  {
+    "ItemId": 327,
+    "SpriteName": "allUI_110",
+    "ItemName": "Watermelon"
+  },
+  {
+    "ItemId": 328,
+    "SpriteName": "allUI_113",
+    "ItemName": "Pumpkin"
+  },
+  {
+    "ItemId": 329,
+    "SpriteName": "allUI_111",
+    "ItemName": "Pumpkin Seeds"
+  },
+  {
+    "ItemId": 330,
+    "SpriteName": "allUI_114",
+    "ItemName": "Onion"
+  },
+  {
+    "ItemId": 331,
+    "SpriteName": "allUI_112",
+    "ItemName": "Onion Seeds"
+  },
+  {
+    "ItemId": 332,
+    "SpriteName": "deedsIcon_8",
+    "ItemName": "Visiting Site Deed"
+  },
+  {
+    "ItemId": 333,
+    "SpriteName": "allUI_121",
+    "ItemName": "Carp"
+  },
+  {
+    "ItemId": 334,
+    "SpriteName": "allUI_122",
+    "ItemName": "Eyestripe Surgeonfish"
+  },
+  {
+    "ItemId": 335,
+    "SpriteName": "allUI_123",
+    "ItemName": "Black & White Snapper"
+  },
+  {
+    "ItemId": 336,
+    "SpriteName": "allUI_124",
+    "ItemName": "Boofhead Catfish"
+  },
+  {
+    "ItemId": 337,
+    "SpriteName": "allUI_125",
+    "ItemName": "Murray Cod"
+  },
+  {
+    "ItemId": 338,
+    "SpriteName": "allUI_126",
+    "ItemName": "Eel Tailed Catfish"
+  },
+  {
+    "ItemId": 339,
+    "SpriteName": "allUI_127",
+    "ItemName": "Stingray"
+  },
+  {
+    "ItemId": 340,
+    "SpriteName": "allUI_140",
+    "ItemName": "MotorBike"
+  },
+  {
+    "ItemId": 341,
+    "SpriteName": "allUI_130",
+    "ItemName": "Bird Coop"
+  },
+  {
+    "ItemId": 342,
+    "SpriteName": "deedsIcon_10",
+    "ItemName": "Animal Shop Deed"
+  },
+  {
+    "ItemId": 343,
+    "SpriteName": "allUI_129",
+    "ItemName": "Animal Feeder"
+  },
+  {
+    "ItemId": 344,
+    "SpriteName": "allUI_128",
+    "ItemName": "Animal Food"
+  },
+  {
+    "ItemId": 345,
+    "SpriteName": "allUI_131",
+    "ItemName": "Chicken Egg"
+  },
+  {
+    "ItemId": 346,
+    "SpriteName": "allUI_135",
+    "ItemName": "Rock Path"
+  },
+  {
+    "ItemId": 347,
+    "SpriteName": "allUI_132",
+    "ItemName": "Animal Stall"
+  },
+  {
+    "ItemId": 348,
+    "SpriteName": "allUI2_80",
+    "ItemName": "Vombat Whistle"
+  },
+  {
+    "ItemId": 349,
+    "SpriteName": "allUI_133",
+    "ItemName": "Milking Bucket"
+  },
+  {
+    "ItemId": 350,
+    "SpriteName": "allUI_134",
+    "ItemName": "Milk"
+  },
+  {
+    "ItemId": 351,
+    "SpriteName": "allUI2_178",
+    "ItemName": "Wooden Flower Bed"
+  },
+  {
+    "ItemId": 352,
+    "SpriteName": "allUI_137",
+    "ItemName": "Hedge Arch"
+  },
+  {
+    "ItemId": 353,
+    "SpriteName": "allUI_136",
+    "ItemName": "Diving Knife"
+  },
+  {
+    "ItemId": 354,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Flapper Hat"
+  },
+  {
+    "ItemId": 355,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Sun Hat"
+  },
+  {
+    "ItemId": 356,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Gangsta Hat"
+  },
+  {
+    "ItemId": 357,
+    "SpriteName": "allUI_139",
+    "ItemName": "Emu Mount"
+  },
+  {
+    "ItemId": 358,
+    "SpriteName": "allUI_138",
+    "ItemName": "Brick Fountain"
+  },
+  {
+    "ItemId": 359,
+    "SpriteName": "allUI_145",
+    "ItemName": "Cooking Table"
+  },
+  {
+    "ItemId": 360,
+    "SpriteName": "allUI2_191",
+    "ItemName": "Lamington"
+  },
+  {
+    "ItemId": 361,
+    "SpriteName": "allUI_146",
+    "ItemName": "Fish and Chips"
+  },
+  {
+    "ItemId": 362,
+    "SpriteName": "allUI_144",
+    "ItemName": "Fruit Salad"
+  },
+  {
+    "ItemId": 363,
+    "SpriteName": "allUI_143",
+    "ItemName": "Garden Salad"
+  },
+  {
+    "ItemId": 364,
+    "SpriteName": "allUI_147",
+    "ItemName": "Hearty Stew"
+  },
+  {
+    "ItemId": 365,
+    "SpriteName": "allUI_0",
+    "ItemName": "Desert Rose Pot"
+  },
+  {
+    "ItemId": 366,
+    "SpriteName": "allUI_0",
+    "ItemName": "Fruit Bowl"
+  },
+  {
+    "ItemId": 367,
+    "SpriteName": "allUI_0",
+    "ItemName": "Alarm Clock"
+  },
+  {
+    "ItemId": 368,
+    "SpriteName": "allUI_0",
+    "ItemName": "Regal Clock"
+  },
+  {
+    "ItemId": 369,
+    "SpriteName": "allUI_0",
+    "ItemName": "Red Lava Lamp"
+  },
+  {
+    "ItemId": 370,
+    "SpriteName": "allUI_0",
+    "ItemName": "Roo Plush"
+  },
+  {
+    "ItemId": 371,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Wooden Floor"
+  },
+  {
+    "ItemId": 372,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic Wooden Wall"
+  },
+  {
+    "ItemId": 373,
+    "SpriteName": "allUI_150",
+    "ItemName": "Dainty Floor"
+  },
+  {
+    "ItemId": 374,
+    "SpriteName": "allUI_150",
+    "ItemName": "Regal Rug"
+  },
+  {
+    "ItemId": 375,
+    "SpriteName": "allUI_149",
+    "ItemName": "Dainty Wall"
+  },
+  {
+    "ItemId": 376,
+    "SpriteName": "allUI_150",
+    "ItemName": "Checkered Floor"
+  },
+  {
+    "ItemId": 377,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic White Wall"
+  },
+  {
+    "ItemId": 378,
+    "SpriteName": "allUI_149",
+    "ItemName": "Light Blue Wall"
+  },
+  {
+    "ItemId": 379,
+    "SpriteName": "allUI_149",
+    "ItemName": "Checkered Wall"
+  },
+  {
+    "ItemId": 380,
+    "SpriteName": "deedsIcon_9",
+    "ItemName": "Museum Deed"
+  },
+  {
+    "ItemId": 381,
+    "SpriteName": "ui2_10",
+    "ItemName": "Chequer Vest"
+  },
+  {
+    "ItemId": 382,
+    "SpriteName": "allUI_151",
+    "ItemName": "Old Key"
+  },
+  {
+    "ItemId": 383,
+    "SpriteName": "allUI_153",
+    "ItemName": "Quarry"
+  },
+  {
+    "ItemId": 384,
+    "SpriteName": "allUI_154",
+    "ItemName": "Old Gear"
+  },
+  {
+    "ItemId": 385,
+    "SpriteName": "allUI_152",
+    "ItemName": "Hang Glider"
+  },
+  {
+    "ItemId": 386,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Candle hat"
+  },
+  {
+    "ItemId": 387,
+    "SpriteName": "allUI_156",
+    "ItemName": "Basic Spear"
+  },
+  {
+    "ItemId": 388,
+    "SpriteName": "allUI_155",
+    "ItemName": "Chicken Whistle"
+  },
+  {
+    "ItemId": 389,
+    "SpriteName": "allUI_158",
+    "ItemName": "Basic Hammer"
+  },
+  {
+    "ItemId": 390,
+    "SpriteName": "allUI_157",
+    "ItemName": "Toad Skin"
+  },
+  {
+    "ItemId": 391,
+    "SpriteName": "deedsIcon_11",
+    "ItemName": "Bulletin Board"
+  },
+  {
+    "ItemId": 392,
+    "SpriteName": "allUI_159",
+    "ItemName": "Keg"
+  },
+  {
+    "ItemId": 393,
+    "SpriteName": "allUI_160",
+    "ItemName": "Wattle Brew"
+  },
+  {
+    "ItemId": 394,
+    "SpriteName": "allUI_161",
+    "ItemName": "Camera"
+  },
+  {
+    "ItemId": 395,
+    "SpriteName": "allUI_170",
+    "ItemName": "Animal Collection Point"
+  },
+  {
+    "ItemId": 396,
+    "SpriteName": "allUI_163",
+    "ItemName": "Desert Rose"
+  },
+  {
+    "ItemId": 397,
+    "SpriteName": "allUI_166",
+    "ItemName": "Billy Button"
+  },
+  {
+    "ItemId": 398,
+    "SpriteName": "allUI_164",
+    "ItemName": "Royal Bluebell"
+  },
+  {
+    "ItemId": 399,
+    "SpriteName": "allUI_165",
+    "ItemName": "Desert Pea"
+  },
+  {
+    "ItemId": 400,
+    "SpriteName": "allUI_167",
+    "ItemName": "Common Heath"
+  },
+  {
+    "ItemId": 401,
+    "SpriteName": "deedsIcon_2",
+    "ItemName": "Town Hall"
+  },
+  {
+    "ItemId": 402,
+    "SpriteName": "allUI_169",
+    "ItemName": "Shears"
+  },
+  {
+    "ItemId": 403,
+    "SpriteName": "allUI_171",
+    "ItemName": "Wool"
+  },
+  {
+    "ItemId": 404,
+    "SpriteName": "allUI_172",
+    "ItemName": "Animal Den"
+  },
+  {
+    "ItemId": 405,
+    "SpriteName": "allUI_173",
+    "ItemName": "Blueprint"
+  },
+  {
+    "ItemId": 406,
+    "SpriteName": "ui2_12",
+    "ItemName": "Pink Polka Dot Pants"
+  },
+  {
+    "ItemId": 407,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pink Polka Dot Shirt"
+  },
+  {
+    "ItemId": 408,
+    "SpriteName": "ui2_13",
+    "ItemName": "Pink Polka dot Shoes"
+  },
+  {
+    "ItemId": 409,
+    "SpriteName": "allUI_3",
+    "ItemName": "Pink Polka Dot Dress"
+  },
+  {
+    "ItemId": 410,
+    "SpriteName": "ui2_10",
+    "ItemName": "Orange Dino Shirt"
+  },
+  {
+    "ItemId": 411,
+    "SpriteName": "ui2_10",
+    "ItemName": "Skull Shirt"
+  },
+  {
+    "ItemId": 412,
+    "SpriteName": "ui2_10",
+    "ItemName": "Feather Shirt"
+  },
+  {
+    "ItemId": 413,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Black Baseball Cap"
+  },
+  {
+    "ItemId": 414,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "White Baseball Cap"
+  },
+  {
+    "ItemId": 415,
+    "SpriteName": "ui2_12",
+    "ItemName": "Grey Sweatpants"
+  },
+  {
+    "ItemId": 416,
+    "SpriteName": "ui2_13",
+    "ItemName": "Brown Sand Shoes"
+  },
+  {
+    "ItemId": 417,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Camo Cap"
+  },
+  {
+    "ItemId": 418,
+    "SpriteName": "allUI_3",
+    "ItemName": "Camo Dress"
+  },
+  {
+    "ItemId": 419,
+    "SpriteName": "ui2_12",
+    "ItemName": "Camo Pants"
+  },
+  {
+    "ItemId": 420,
+    "SpriteName": "ui2_10",
+    "ItemName": "Camo Shirt"
+  },
+  {
+    "ItemId": 421,
+    "SpriteName": "ui2_13",
+    "ItemName": "Camo Boots"
+  },
+  {
+    "ItemId": 422,
+    "SpriteName": "ui2_12",
+    "ItemName": "Cargo Pants"
+  },
+  {
+    "ItemId": 423,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue Stripe Shirt."
+  },
+  {
+    "ItemId": 424,
+    "SpriteName": "ui2_13",
+    "ItemName": "Brown Sand Shoes"
+  },
+  {
+    "ItemId": 425,
+    "SpriteName": "ui2_12",
+    "ItemName": "Orange Cargo Pants"
+  },
+  {
+    "ItemId": 426,
+    "SpriteName": "ui2_13",
+    "ItemName": "Orange Sand Shoes"
+  },
+  {
+    "ItemId": 427,
+    "SpriteName": "ui2_10",
+    "ItemName": "Orange Stripe Shirt."
+  },
+  {
+    "ItemId": 428,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Straw Sun Hat"
+  },
+  {
+    "ItemId": 429,
+    "SpriteName": "ui2_10",
+    "ItemName": "Red Puffy Jacket"
+  },
+  {
+    "ItemId": 430,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue Puffy Jacket"
+  },
+  {
+    "ItemId": 431,
+    "SpriteName": "ui2_10",
+    "ItemName": "Green Puffy Jacket"
+  },
+  {
+    "ItemId": 432,
+    "SpriteName": "ui2_10",
+    "ItemName": "Purple Puffy Jacket"
+  },
+  {
+    "ItemId": 433,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue Ugly Sweater"
+  },
+  {
+    "ItemId": 434,
+    "SpriteName": "ui2_12",
+    "ItemName": "Blue Cuffed Pants"
+  },
+  {
+    "ItemId": 435,
+    "SpriteName": "ui2_12",
+    "ItemName": "Green Cuffed Pants"
+  },
+  {
+    "ItemId": 436,
+    "SpriteName": "ui2_12",
+    "ItemName": "Purple Cuffed Pants"
+  },
+  {
+    "ItemId": 437,
+    "SpriteName": "ui2_12",
+    "ItemName": "Red Cuffed Pants"
+  },
+  {
+    "ItemId": 438,
+    "SpriteName": "ui2_10",
+    "ItemName": "Pink Singlet"
+  },
+  {
+    "ItemId": 439,
+    "SpriteName": "ui2_10",
+    "ItemName": "Red Singlet"
+  },
+  {
+    "ItemId": 440,
+    "SpriteName": "ui2_12",
+    "ItemName": "Red Shorts"
+  },
+  {
+    "ItemId": 441,
+    "SpriteName": "ui2_10",
+    "ItemName": "Black Singlet"
+  },
+  {
+    "ItemId": 442,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Shorts"
+  },
+  {
+    "ItemId": 443,
+    "SpriteName": "allUI_85",
+    "ItemName": "Swimming Goggles"
+  },
+  {
+    "ItemId": 444,
+    "SpriteName": "allUI_85",
+    "ItemName": "Punk Goggles"
+  },
+  {
+    "ItemId": 445,
+    "SpriteName": "ui2_13",
+    "ItemName": "Yellow Gumboots"
+  },
+  {
+    "ItemId": 446,
+    "SpriteName": "ui2_10",
+    "ItemName": "Rain Coat"
+  },
+  {
+    "ItemId": 447,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Rain Hat"
+  },
+  {
+    "ItemId": 448,
+    "SpriteName": "allUI_3",
+    "ItemName": "Blue Stripe Dress"
+  },
+  {
+    "ItemId": 449,
+    "SpriteName": "allUI_3",
+    "ItemName": "Orange Stripe Dress"
+  },
+  {
+    "ItemId": 450,
+    "SpriteName": "allUI_176",
+    "ItemName": "Gacha Machine"
+  },
+  {
+    "ItemId": 451,
+    "SpriteName": "allUI_178",
+    "ItemName": "Basic Bench"
+  },
+  {
+    "ItemId": 452,
+    "SpriteName": "allUI_177",
+    "ItemName": "Scarecrow"
+  },
+  {
+    "ItemId": 453,
+    "SpriteName": "allUI2_179",
+    "ItemName": "Brick Flower Bed"
+  },
+  {
+    "ItemId": 454,
+    "SpriteName": "allUI_180",
+    "ItemName": "Recycling Bin"
+  },
+  {
+    "ItemId": 455,
+    "SpriteName": "ui2_8",
+    "ItemName": "Small Rock"
+  },
+  {
+    "ItemId": 456,
+    "SpriteName": "allUI_179",
+    "ItemName": "Tin Ore"
+  },
+  {
+    "ItemId": 457,
+    "SpriteName": "allUI_45",
+    "ItemName": "Crude Axe"
+  },
+  {
+    "ItemId": 458,
+    "SpriteName": "allUI_181",
+    "ItemName": "Crude Furnace"
+  },
+  {
+    "ItemId": 459,
+    "SpriteName": "allUI_182",
+    "ItemName": "Tent"
+  },
+  {
+    "ItemId": 460,
+    "SpriteName": "allUI_186",
+    "ItemName": "Tin Bar"
+  },
+  {
+    "ItemId": 461,
+    "SpriteName": "allUI_182",
+    "ItemName": "Flagpole"
+  },
+  {
+    "ItemId": 462,
+    "SpriteName": "allUI_182",
+    "ItemName": "Base Tent"
+  },
+  {
+    "ItemId": 463,
+    "SpriteName": "allUI_183",
+    "ItemName": "Picket Fence"
+  },
+  {
+    "ItemId": 464,
+    "SpriteName": "allUI_184",
+    "ItemName": "Picket Gate"
+  },
+  {
+    "ItemId": 465,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Skull Mask"
+  },
+  {
+    "ItemId": 466,
+    "SpriteName": "allUI_215",
+    "ItemName": "Tin Sheet"
+  },
+  {
+    "ItemId": 467,
+    "SpriteName": "allUI_130",
+    "ItemName": "Dog Kennel"
+  },
+  {
+    "ItemId": 468,
+    "SpriteName": "allUI_155",
+    "ItemName": "Dog Whistle"
+  },
+  {
+    "ItemId": 469,
+    "SpriteName": "allUI_149",
+    "ItemName": "Green Pattern Wall"
+  },
+  {
+    "ItemId": 470,
+    "SpriteName": "allUI_149",
+    "ItemName": "Blue Pattern Wall"
+  },
+  {
+    "ItemId": 471,
+    "SpriteName": "allUI_149",
+    "ItemName": "Red Pattern Wall"
+  },
+  {
+    "ItemId": 472,
+    "SpriteName": "allUI_149",
+    "ItemName": "Pink Pattern Wall"
+  },
+  {
+    "ItemId": 473,
+    "SpriteName": "allUI_149",
+    "ItemName": "Dark Wooden Wall"
+  },
+  {
+    "ItemId": 474,
+    "SpriteName": "allUI_150",
+    "ItemName": "Dark Wooden Floor"
+  },
+  {
+    "ItemId": 475,
+    "SpriteName": "allUI_150",
+    "ItemName": "Pink Carpet"
+  },
+  {
+    "ItemId": 476,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic Blue Wallpaper"
+  },
+  {
+    "ItemId": 477,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic Green Wallpaper"
+  },
+  {
+    "ItemId": 478,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic Pink Wallpaper"
+  },
+  {
+    "ItemId": 479,
+    "SpriteName": "allUI_149",
+    "ItemName": "Basic Red Wall"
+  },
+  {
+    "ItemId": 480,
+    "SpriteName": "deedsIcon_14",
+    "ItemName": "Bank Deed"
+  },
+  {
+    "ItemId": 481,
+    "SpriteName": "allUI_195",
+    "ItemName": "Crafting Table"
+  },
+  {
+    "ItemId": 482,
+    "SpriteName": "allUI2_49",
+    "ItemName": "Tiki Torch"
+  },
+  {
+    "ItemId": 483,
+    "SpriteName": "allUI_214",
+    "ItemName": "Crude Fence"
+  },
+  {
+    "ItemId": 484,
+    "SpriteName": "allUI_247",
+    "ItemName": "Bonytongue"
+  },
+  {
+    "ItemId": 485,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Green Flat Cap"
+  },
+  {
+    "ItemId": 486,
+    "SpriteName": "ui2_12",
+    "ItemName": "Pirate Pants"
+  },
+  {
+    "ItemId": 487,
+    "SpriteName": "ui2_13",
+    "ItemName": "Pirate Boots"
+  },
+  {
+    "ItemId": 488,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Pirate Hat"
+  },
+  {
+    "ItemId": 489,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Ninja Hood"
+  },
+  {
+    "ItemId": 490,
+    "SpriteName": "ui2_13",
+    "ItemName": "Ninja Boots"
+  },
+  {
+    "ItemId": 491,
+    "SpriteName": "ui2_12",
+    "ItemName": "Ninja Pants"
+  },
+  {
+    "ItemId": 492,
+    "SpriteName": "ui2_10",
+    "ItemName": "Ninja Shirt"
+  },
+  {
+    "ItemId": 493,
+    "SpriteName": "allUI_3",
+    "ItemName": "Yellow Polka Dot Dress"
+  },
+  {
+    "ItemId": 494,
+    "SpriteName": "allUI_3",
+    "ItemName": "Yellow Plaid Dress"
+  },
+  {
+    "ItemId": 495,
+    "SpriteName": "allUI_3",
+    "ItemName": "Blue Plaid Dress"
+  },
+  {
+    "ItemId": 496,
+    "SpriteName": "allUI_3",
+    "ItemName": "Brown Overall Dress"
+  },
+  {
+    "ItemId": 497,
+    "SpriteName": "allUI_3",
+    "ItemName": "Green Overall Dress"
+  },
+  {
+    "ItemId": 498,
+    "SpriteName": "allUI_3",
+    "ItemName": "Green Cardigan Dress"
+  },
+  {
+    "ItemId": 499,
+    "SpriteName": "allUI_3",
+    "ItemName": "Pink Cardigan Dress"
+  },
+  {
+    "ItemId": 500,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Green Bow Hat"
+  },
+  {
+    "ItemId": 501,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Old Straw Hat"
+  },
+  {
+    "ItemId": 502,
+    "SpriteName": "deedsIcon_11",
+    "ItemName": "Donation Box"
+  },
+  {
+    "ItemId": 503,
+    "SpriteName": "allUI_194",
+    "ItemName": "Weather Station"
+  },
+  {
+    "ItemId": 504,
+    "SpriteName": "ui2_10",
+    "ItemName": "Green Flannelette Shirt"
+  },
+  {
+    "ItemId": 505,
+    "SpriteName": "ui2_12",
+    "ItemName": "Green Plaid Pants"
+  },
+  {
+    "ItemId": 506,
+    "SpriteName": "ui2_12",
+    "ItemName": "Blue Plaid Pants"
+  },
+  {
+    "ItemId": 507,
+    "SpriteName": "ui2_10",
+    "ItemName": "Orange Flanney Shirt"
+  },
+  {
+    "ItemId": 508,
+    "SpriteName": "ui2_12",
+    "ItemName": "Orange Plaid Pants"
+  },
+  {
+    "ItemId": 509,
+    "SpriteName": "ui2_12",
+    "ItemName": "Red Plaid Pants"
+  },
+  {
+    "ItemId": 510,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Orange Flat Cap"
+  },
+  {
+    "ItemId": 511,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Red Flat Cap"
+  },
+  {
+    "ItemId": 512,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Blue Flat Cap"
+  },
+  {
+    "ItemId": 513,
+    "SpriteName": "ui2_10",
+    "ItemName": "Blue Flanney Dress"
+  },
+  {
+    "ItemId": 514,
+    "SpriteName": "ui2_10",
+    "ItemName": "Green Flannelette Dress"
+  },
+  {
+    "ItemId": 515,
+    "SpriteName": "ui2_10",
+    "ItemName": "Orange Flanney Dress"
+  },
+  {
+    "ItemId": 516,
+    "SpriteName": "ui2_10",
+    "ItemName": "Red Flanney Dress"
+  },
+  {
+    "ItemId": 517,
+    "SpriteName": "allUI2_59",
+    "ItemName": "Guitar"
+  },
+  {
+    "ItemId": 518,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "House Deed"
+  },
+  {
+    "ItemId": 519,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "House Deed"
+  },
+  {
+    "ItemId": 520,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "House Deed"
+  },
+  {
+    "ItemId": 521,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "House Deed"
+  },
+  {
+    "ItemId": 522,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Chair"
+  },
+  {
+    "ItemId": 523,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Seat"
+  },
+  {
+    "ItemId": 524,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Bed"
+  },
+  {
+    "ItemId": 525,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Bedside Table"
+  },
+  {
+    "ItemId": 526,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Bookshelf"
+  },
+  {
+    "ItemId": 527,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Wardrobe"
+  },
+  {
+    "ItemId": 528,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Coffee Table"
+  },
+  {
+    "ItemId": 529,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Couch"
+  },
+  {
+    "ItemId": 530,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Table"
+  },
+  {
+    "ItemId": 531,
+    "SpriteName": "allUI_0",
+    "ItemName": "Eastern Lamp"
+  },
+  {
+    "ItemId": 532,
+    "SpriteName": "allUI_150",
+    "ItemName": "Eastern Floor"
+  },
+  {
+    "ItemId": 533,
+    "SpriteName": "allUI_149",
+    "ItemName": "Eastern Wall"
+  },
+  {
+    "ItemId": 534,
+    "SpriteName": "allUI_150",
+    "ItemName": "Red Wood Floor"
+  },
+  {
+    "ItemId": 535,
+    "SpriteName": "allUI_0",
+    "ItemName": "Small Stack of Books"
+  },
+  {
+    "ItemId": 536,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wombie Bank"
+  },
+  {
+    "ItemId": 537,
+    "SpriteName": "allUI_0",
+    "ItemName": "Billy Button Pot"
+  },
+  {
+    "ItemId": 538,
+    "SpriteName": "allUI_0",
+    "ItemName": "Royal Bluebell Pot"
+  },
+  {
+    "ItemId": 539,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Bed"
+  },
+  {
+    "ItemId": 540,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Bookshelf"
+  },
+  {
+    "ItemId": 541,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Cabinet"
+  },
+  {
+    "ItemId": 542,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Chair"
+  },
+  {
+    "ItemId": 543,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Coffee Table"
+  },
+  {
+    "ItemId": 544,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Couch"
+  },
+  {
+    "ItemId": 545,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Table"
+  },
+  {
+    "ItemId": 546,
+    "SpriteName": "allUI_150",
+    "ItemName": "Rattan Floor"
+  },
+  {
+    "ItemId": 547,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Lamp"
+  },
+  {
+    "ItemId": 548,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Seat"
+  },
+  {
+    "ItemId": 549,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Bedside Table"
+  },
+  {
+    "ItemId": 550,
+    "SpriteName": "allUI_149",
+    "ItemName": "Rattan Wall"
+  },
+  {
+    "ItemId": 551,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Bed"
+  },
+  {
+    "ItemId": 552,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Bedside Table"
+  },
+  {
+    "ItemId": 553,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Bookshelf"
+  },
+  {
+    "ItemId": 554,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Cabinet"
+  },
+  {
+    "ItemId": 555,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Chair"
+  },
+  {
+    "ItemId": 556,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Coffee Table"
+  },
+  {
+    "ItemId": 557,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Couch"
+  },
+  {
+    "ItemId": 558,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Table"
+  },
+  {
+    "ItemId": 559,
+    "SpriteName": "allUI_150",
+    "ItemName": "Nordic Floor"
+  },
+  {
+    "ItemId": 560,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Lamp"
+  },
+  {
+    "ItemId": 561,
+    "SpriteName": "allUI_0",
+    "ItemName": "Nordic Seat"
+  },
+  {
+    "ItemId": 562,
+    "SpriteName": "allUI_149",
+    "ItemName": "Nordic Wall"
+  },
+  {
+    "ItemId": 563,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Bed"
+  },
+  {
+    "ItemId": 564,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Bedside Table"
+  },
+  {
+    "ItemId": 565,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Bookshelf"
+  },
+  {
+    "ItemId": 566,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Cabinet"
+  },
+  {
+    "ItemId": 567,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Chair"
+  },
+  {
+    "ItemId": 568,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Coffee Table"
+  },
+  {
+    "ItemId": 569,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Couch"
+  },
+  {
+    "ItemId": 570,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Table"
+  },
+  {
+    "ItemId": 571,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Lamp"
+  },
+  {
+    "ItemId": 572,
+    "SpriteName": "allUI_0",
+    "ItemName": "Pink Seat"
+  },
+  {
+    "ItemId": 573,
+    "SpriteName": "allUI_150",
+    "ItemName": "Cube Floor"
+  },
+  {
+    "ItemId": 574,
+    "SpriteName": "allUI_149",
+    "ItemName": "Cube Wall"
+  },
+  {
+    "ItemId": 575,
+    "SpriteName": "allUI_212",
+    "ItemName": "Cooked Apple"
+  },
+  {
+    "ItemId": 576,
+    "SpriteName": "allUI_211",
+    "ItemName": "Cooked Banana"
+  },
+  {
+    "ItemId": 577,
+    "SpriteName": "allUI_213",
+    "ItemName": "Cooked Bush Lime"
+  },
+  {
+    "ItemId": 578,
+    "SpriteName": "allUI_210",
+    "ItemName": "Palm Wood Bridge"
+  },
+  {
+    "ItemId": 579,
+    "SpriteName": "allUI_227",
+    "ItemName": "Meadow Katydid"
+  },
+  {
+    "ItemId": 580,
+    "SpriteName": "allUI_231",
+    "ItemName": "Rhinoceros Beetle"
+  },
+  {
+    "ItemId": 581,
+    "SpriteName": "allUI_228",
+    "ItemName": "Goliath stick"
+  },
+  {
+    "ItemId": 582,
+    "SpriteName": "allUI_229",
+    "ItemName": "Bogong Moth"
+  },
+  {
+    "ItemId": 583,
+    "SpriteName": "allUI_230",
+    "ItemName": "Scarlet Jezebel Butterfly"
+  },
+  {
+    "ItemId": 584,
+    "SpriteName": "allUI2_32",
+    "ItemName": "Raw Giant Drumstick"
+  },
+  {
+    "ItemId": 585,
+    "SpriteName": "allUI_224",
+    "ItemName": "Hot Cylinder"
+  },
+  {
+    "ItemId": 586,
+    "SpriteName": "allUI_192",
+    "ItemName": "Green Board"
+  },
+  {
+    "ItemId": 587,
+    "SpriteName": "allUI_209",
+    "ItemName": "Old Wheel"
+  },
+  {
+    "ItemId": 588,
+    "SpriteName": "allUI_208",
+    "ItemName": "Shiny Disc"
+  },
+  {
+    "ItemId": 589,
+    "SpriteName": "deedsIcon_1",
+    "ItemName": "North Teletower"
+  },
+  {
+    "ItemId": 590,
+    "SpriteName": "deedsIcon_1",
+    "ItemName": "East Teletower"
+  },
+  {
+    "ItemId": 591,
+    "SpriteName": "deedsIcon_1",
+    "ItemName": "South Teletower"
+  },
+  {
+    "ItemId": 592,
+    "SpriteName": "deedsIcon_1",
+    "ItemName": "West Teletower"
+  },
+  {
+    "ItemId": 593,
+    "SpriteName": "allUI_226",
+    "ItemName": "Copper Spear"
+  },
+  {
+    "ItemId": 594,
+    "SpriteName": "allUI_225",
+    "ItemName": "Iron Spear"
+  },
+  {
+    "ItemId": 595,
+    "SpriteName": "allUI_240",
+    "ItemName": "Copper Hammer"
+  },
+  {
+    "ItemId": 596,
+    "SpriteName": "allUI_241",
+    "ItemName": "Iron Hammer"
+  },
+  {
+    "ItemId": 597,
+    "SpriteName": "allUI_242",
+    "ItemName": "Island Map"
+  },
+  {
+    "ItemId": 598,
+    "SpriteName": "allUI_243",
+    "ItemName": "Adventurer's Journal"
+  },
+  {
+    "ItemId": 599,
+    "SpriteName": "allUI_235",
+    "ItemName": "Jack Hammer"
+  },
+  {
+    "ItemId": 600,
+    "SpriteName": "allUI2_39",
+    "ItemName": "Jet Ski"
+  },
+  {
+    "ItemId": 601,
+    "SpriteName": "allUI_244",
+    "ItemName": "Glass Bulb"
+  },
+  {
+    "ItemId": 602,
+    "SpriteName": "allUI_245",
+    "ItemName": "Smooth Slate"
+  },
+  {
+    "ItemId": 603,
+    "SpriteName": "allUI_246",
+    "ItemName": "Big Chicken Egg"
+  },
+  {
+    "ItemId": 604,
+    "SpriteName": "allUI2_40",
+    "ItemName": "Row Boat"
+  },
+  {
+    "ItemId": 605,
+    "SpriteName": "allUI_250",
+    "ItemName": "Blackfish"
+  },
+  {
+    "ItemId": 606,
+    "SpriteName": "allUI_248",
+    "ItemName": "Galaxias"
+  },
+  {
+    "ItemId": 607,
+    "SpriteName": "allUI_249",
+    "ItemName": "Silver Perch"
+  },
+  {
+    "ItemId": 608,
+    "SpriteName": "allUI_253",
+    "ItemName": "Anchovy"
+  },
+  {
+    "ItemId": 609,
+    "SpriteName": "allUI_251",
+    "ItemName": "Goat Fish"
+  },
+  {
+    "ItemId": 610,
+    "SpriteName": "allUI_252",
+    "ItemName": "Barracuda"
+  },
+  {
+    "ItemId": 611,
+    "SpriteName": "allUI_254",
+    "ItemName": "Blob Fish"
+  },
+  {
+    "ItemId": 612,
+    "SpriteName": "allUI_187",
+    "ItemName": "Saratoga"
+  },
+  {
+    "ItemId": 613,
+    "SpriteName": "allUI_255",
+    "ItemName": "Tarpon"
+  },
+  {
+    "ItemId": 614,
+    "SpriteName": "allUI2_0",
+    "ItemName": "Black Cricket"
+  },
+  {
+    "ItemId": 615,
+    "SpriteName": "allUI2_1",
+    "ItemName": "Monarch Butterfly"
+  },
+  {
+    "ItemId": 616,
+    "SpriteName": "allUI2_2",
+    "ItemName": "Lacewing"
+  },
+  {
+    "ItemId": 617,
+    "SpriteName": "allUI2_3",
+    "ItemName": "Emperor DragonFly"
+  },
+  {
+    "ItemId": 618,
+    "SpriteName": "allUI2_4",
+    "ItemName": "Pygmyfly"
+  },
+  {
+    "ItemId": 619,
+    "SpriteName": "allUI2_5",
+    "ItemName": "Tau Emerald Dragonfly"
+  },
+  {
+    "ItemId": 620,
+    "SpriteName": "allUI2_6",
+    "ItemName": "Ladybird"
+  },
+  {
+    "ItemId": 621,
+    "SpriteName": "allUI2_7",
+    "ItemName": "Tiger Moth"
+  },
+  {
+    "ItemId": 622,
+    "SpriteName": "allUI2_8",
+    "ItemName": "Duskhawker DragonFly"
+  },
+  {
+    "ItemId": 623,
+    "SpriteName": "allUI2_9",
+    "ItemName": "Largidae"
+  },
+  {
+    "ItemId": 624,
+    "SpriteName": "allUI2_10",
+    "ItemName": "Huntsman"
+  },
+  {
+    "ItemId": 625,
+    "SpriteName": "allUI2_11",
+    "ItemName": "Blue Moon Butterfly"
+  },
+  {
+    "ItemId": 626,
+    "SpriteName": "allUI2_13",
+    "ItemName": "Fiddler Beetle"
+  },
+  {
+    "ItemId": 627,
+    "SpriteName": "allUI2_12",
+    "ItemName": "Stag Beetle"
+  },
+  {
+    "ItemId": 628,
+    "SpriteName": "allUI2_14",
+    "ItemName": "Marlin"
+  },
+  {
+    "ItemId": 629,
+    "SpriteName": "allUI2_15",
+    "ItemName": "Grayling"
+  },
+  {
+    "ItemId": 630,
+    "SpriteName": "allUI2_16",
+    "ItemName": "Hercules Moth"
+  },
+  {
+    "ItemId": 631,
+    "SpriteName": "allUI2_18",
+    "ItemName": "Centipede"
+  },
+  {
+    "ItemId": 632,
+    "SpriteName": "allUI2_17",
+    "ItemName": "Short Finned Eel"
+  },
+  {
+    "ItemId": 633,
+    "SpriteName": "allUI2_19",
+    "ItemName": "Spinning Wheel"
+  },
+  {
+    "ItemId": 634,
+    "SpriteName": "allUI2_20",
+    "ItemName": "Cloth"
+  },
+  {
+    "ItemId": 635,
+    "SpriteName": "allUI2_21",
+    "ItemName": "Cheese Maker"
+  },
+  {
+    "ItemId": 636,
+    "SpriteName": "allUI2_22",
+    "ItemName": "Cheese"
+  },
+  {
+    "ItemId": 637,
+    "SpriteName": "allUI2_23",
+    "ItemName": "High Quality Milk"
+  },
+  {
+    "ItemId": 638,
+    "SpriteName": "allUI2_24",
+    "ItemName": "High Quality Cheese"
+  },
+  {
+    "ItemId": 639,
+    "SpriteName": "allUI2_25",
+    "ItemName": "Old Spring"
+  },
+  {
+    "ItemId": 640,
+    "SpriteName": "allUI2_28",
+    "ItemName": "Sliding Handle"
+  },
+  {
+    "ItemId": 641,
+    "SpriteName": "allUI2_27",
+    "ItemName": "Button Board"
+  },
+  {
+    "ItemId": 642,
+    "SpriteName": "allUI2_26",
+    "ItemName": "Bright Wire"
+  },
+  {
+    "ItemId": 643,
+    "SpriteName": "allUI2_29",
+    "ItemName": "Old Toy"
+  },
+  {
+    "ItemId": 644,
+    "SpriteName": "allUI2_30",
+    "ItemName": "Ear Hats"
+  },
+  {
+    "ItemId": 645,
+    "SpriteName": "allUI2_31",
+    "ItemName": "Old Contraption"
+  },
+  {
+    "ItemId": 646,
+    "SpriteName": "allUI2_33",
+    "ItemName": "Cooked Giant Drumstick"
+  },
+  {
+    "ItemId": 647,
+    "SpriteName": "allUI2_35",
+    "ItemName": "Cooked Croco Meat"
+  },
+  {
+    "ItemId": 648,
+    "SpriteName": "allUI2_34",
+    "ItemName": "Croco Meat"
+  },
+  {
+    "ItemId": 649,
+    "SpriteName": "allUI2_36",
+    "ItemName": "Mangrove Stick"
+  },
+  {
+    "ItemId": 650,
+    "SpriteName": "allUI2_37",
+    "ItemName": "Bottle Tree Wood"
+  },
+  {
+    "ItemId": 651,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Red Hooded Cap"
+  },
+  {
+    "ItemId": 652,
+    "SpriteName": "allUI_85",
+    "ItemName": "Pilot Goggles"
+  },
+  {
+    "ItemId": 653,
+    "SpriteName": "allUI_85",
+    "ItemName": "Googly Eyes"
+  },
+  {
+    "ItemId": 654,
+    "SpriteName": "allUI_85",
+    "ItemName": "Hero Mask"
+  },
+  {
+    "ItemId": 655,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Bunny Hood"
+  },
+  {
+    "ItemId": 656,
+    "SpriteName": "ui2_12",
+    "ItemName": "Yellow Sweats"
+  },
+  {
+    "ItemId": 657,
+    "SpriteName": "ui2_13",
+    "ItemName": "Yellow Sneakers"
+  },
+  {
+    "ItemId": 658,
+    "SpriteName": "ui2_10",
+    "ItemName": "Yellow B Shirt"
+  },
+  {
+    "ItemId": 659,
+    "SpriteName": "allUI2_41",
+    "ItemName": "Mine Pass"
+  },
+  {
+    "ItemId": 660,
+    "SpriteName": "allUI2_42",
+    "ItemName": "Fern Seed"
+  },
+  {
+    "ItemId": 661,
+    "SpriteName": "allUI2_43",
+    "ItemName": "Bush Seed"
+  },
+  {
+    "ItemId": 662,
+    "SpriteName": "deedsIcon_12",
+    "ItemName": "Base Tent Deed"
+  },
+  {
+    "ItemId": 663,
+    "SpriteName": "deedsIcon_8",
+    "ItemName": "Visiting Site Deed"
+  },
+  {
+    "ItemId": 664,
+    "SpriteName": "allUI2_44",
+    "ItemName": "Flame Sac"
+  },
+  {
+    "ItemId": 665,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Green Rug"
+  },
+  {
+    "ItemId": 666,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Red Rug"
+  },
+  {
+    "ItemId": 667,
+    "SpriteName": "allUI_149",
+    "ItemName": "Bank Wall"
+  },
+  {
+    "ItemId": 668,
+    "SpriteName": "allUI_150",
+    "ItemName": "Grass Floor"
+  },
+  {
+    "ItemId": 669,
+    "SpriteName": "allUI2_81",
+    "ItemName": "Cooked Cactus Fig"
+  },
+  {
+    "ItemId": 670,
+    "SpriteName": "allUI2_45",
+    "ItemName": "Wooden Sign"
+  },
+  {
+    "ItemId": 671,
+    "SpriteName": "allUI_149",
+    "ItemName": "Cloud Wall"
+  },
+  {
+    "ItemId": 672,
+    "SpriteName": "allUI_149",
+    "ItemName": "Retro Flower Wall"
+  },
+  {
+    "ItemId": 673,
+    "SpriteName": "allUI_150",
+    "ItemName": "Retro Floor"
+  },
+  {
+    "ItemId": 674,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Blue Rug"
+  },
+  {
+    "ItemId": 675,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Pink Rug"
+  },
+  {
+    "ItemId": 676,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Purple Rug"
+  },
+  {
+    "ItemId": 677,
+    "SpriteName": "allUI_150",
+    "ItemName": "Basic Blue Orange"
+  },
+  {
+    "ItemId": 678,
+    "SpriteName": "allUI_150",
+    "ItemName": "Marble Floor"
+  },
+  {
+    "ItemId": 679,
+    "SpriteName": "allUI2_46",
+    "ItemName": "Bug Book"
+  },
+  {
+    "ItemId": 680,
+    "SpriteName": "allUI2_48",
+    "ItemName": "Fish Book"
+  },
+  {
+    "ItemId": 681,
+    "SpriteName": "allUI2_47",
+    "ItemName": "Plant Book"
+  },
+  {
+    "ItemId": 682,
+    "SpriteName": "allUI2_50",
+    "ItemName": "Compactor"
+  },
+  {
+    "ItemId": 683,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Jackaroo Hood"
+  },
+  {
+    "ItemId": 684,
+    "SpriteName": "allUI2_104",
+    "ItemName": "Helicopter"
+  },
+  {
+    "ItemId": 685,
+    "SpriteName": "allUI2_54",
+    "ItemName": "Meat Pie"
+  },
+  {
+    "ItemId": 686,
+    "SpriteName": "allUI_148",
+    "ItemName": "Pavlova"
+  },
+  {
+    "ItemId": 687,
+    "SpriteName": "allUI2_53",
+    "ItemName": "Dagwood Dog"
+  },
+  {
+    "ItemId": 688,
+    "SpriteName": "allUI2_55",
+    "ItemName": "Croc Teeth Bat"
+  },
+  {
+    "ItemId": 689,
+    "SpriteName": "allUI2_56",
+    "ItemName": "Flaming Bat"
+  },
+  {
+    "ItemId": 690,
+    "SpriteName": "allUI2_57",
+    "ItemName": "Quiche"
+  },
+  {
+    "ItemId": 691,
+    "SpriteName": "allUI2_58",
+    "ItemName": "Meat on a stick."
+  },
+  {
+    "ItemId": 692,
+    "SpriteName": "allUI2_60",
+    "ItemName": "Water Tank"
+  },
+  {
+    "ItemId": 693,
+    "SpriteName": "allUI2_62",
+    "ItemName": "Silo"
+  },
+  {
+    "ItemId": 694,
+    "SpriteName": "allUI2_63",
+    "ItemName": "Blackwood Seed"
+  },
+  {
+    "ItemId": 695,
+    "SpriteName": "allUI_85",
+    "ItemName": "Fake Beard"
+  },
+  {
+    "ItemId": 696,
+    "SpriteName": "allUI2_92",
+    "ItemName": "Cement Fence"
+  },
+  {
+    "ItemId": 697,
+    "SpriteName": "allUI2_65",
+    "ItemName": "Simple Animal Trap"
+  },
+  {
+    "ItemId": 698,
+    "SpriteName": "allUI2_64",
+    "ItemName": "Bottle Brush"
+  },
+  {
+    "ItemId": 699,
+    "SpriteName": "allUI2_67",
+    "ItemName": "Copper Watering Can"
+  },
+  {
+    "ItemId": 700,
+    "SpriteName": "allUI2_67",
+    "ItemName": "Copper Watering Can"
+  },
+  {
+    "ItemId": 701,
+    "SpriteName": "allUI2_68",
+    "ItemName": "Iron Watering Can"
+  },
+  {
+    "ItemId": 702,
+    "SpriteName": "allUI2_68",
+    "ItemName": "Iron Watering Can"
+  },
+  {
+    "ItemId": 703,
+    "SpriteName": "allUI2_66",
+    "ItemName": "Compost Bin"
+  },
+  {
+    "ItemId": 704,
+    "SpriteName": "allUI2_71",
+    "ItemName": "Shovel of Sand"
+  },
+  {
+    "ItemId": 705,
+    "SpriteName": "allUI2_72",
+    "ItemName": "Shovel of Mud"
+  },
+  {
+    "ItemId": 706,
+    "SpriteName": "allUI2_73",
+    "ItemName": "Shovel of Red Sand"
+  },
+  {
+    "ItemId": 707,
+    "SpriteName": "allUI2_70",
+    "ItemName": "Fir Grass Seeds"
+  },
+  {
+    "ItemId": 708,
+    "SpriteName": "allUI2_69",
+    "ItemName": "Tropical Grass Seeds"
+  },
+  {
+    "ItemId": 709,
+    "SpriteName": "ui2_13",
+    "ItemName": "Long Shoes"
+  },
+  {
+    "ItemId": 710,
+    "SpriteName": "deedsIcon_15",
+    "ItemName": "Tele Pad"
+  },
+  {
+    "ItemId": 711,
+    "SpriteName": "allUI2_29",
+    "ItemName": "Tele Caller"
+  },
+  {
+    "ItemId": 712,
+    "SpriteName": "ui2_10",
+    "ItemName": "Black Jacket"
+  },
+  {
+    "ItemId": 713,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Jeans"
+  },
+  {
+    "ItemId": 714,
+    "SpriteName": "ui2_12",
+    "ItemName": "White Pants"
+  },
+  {
+    "ItemId": 715,
+    "SpriteName": "ui2_10",
+    "ItemName": "White T-Shirt"
+  },
+  {
+    "ItemId": 716,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Black Flat Cap"
+  },
+  {
+    "ItemId": 717,
+    "SpriteName": "ui2_10",
+    "ItemName": "Black Flanney Shirt"
+  },
+  {
+    "ItemId": 718,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Plaid Pants"
+  },
+  {
+    "ItemId": 719,
+    "SpriteName": "ui2_12",
+    "ItemName": "Yellow Shorts"
+  },
+  {
+    "ItemId": 720,
+    "SpriteName": "ui2_10",
+    "ItemName": "Yellow T Shirt"
+  },
+  {
+    "ItemId": 721,
+    "SpriteName": "ui2_13",
+    "ItemName": "Yellow Boots"
+  },
+  {
+    "ItemId": 722,
+    "SpriteName": "ui2_13",
+    "ItemName": "White Boots"
+  },
+  {
+    "ItemId": 723,
+    "SpriteName": "allUI_85",
+    "ItemName": "Face Bandana Green"
+  },
+  {
+    "ItemId": 724,
+    "SpriteName": "allUI_85",
+    "ItemName": "Face Bandana Black"
+  },
+  {
+    "ItemId": 725,
+    "SpriteName": "allUI_85",
+    "ItemName": "Face Bandana Blue"
+  },
+  {
+    "ItemId": 726,
+    "SpriteName": "allUI_85",
+    "ItemName": "Face Bandana Orange"
+  },
+  {
+    "ItemId": 727,
+    "SpriteName": "allUI_85",
+    "ItemName": "Face Bandana Red"
+  },
+  {
+    "ItemId": 728,
+    "SpriteName": "allUI_85",
+    "ItemName": "Large Round Glasses"
+  },
+  {
+    "ItemId": 729,
+    "SpriteName": "allUI_85",
+    "ItemName": "Retro Point Glasses"
+  },
+  {
+    "ItemId": 730,
+    "SpriteName": "allUI_85",
+    "ItemName": "Retro Point Sun Glasses"
+  },
+  {
+    "ItemId": 731,
+    "SpriteName": "allUI_85",
+    "ItemName": "Triangle Glasses"
+  },
+  {
+    "ItemId": 732,
+    "SpriteName": "allUI_85",
+    "ItemName": "Shutter Shades"
+  },
+  {
+    "ItemId": 733,
+    "SpriteName": "allUI_85",
+    "ItemName": "Round Horned Glasses"
+  },
+  {
+    "ItemId": 734,
+    "SpriteName": "allUI_85",
+    "ItemName": "Round Horned Sun Glasses"
+  },
+  {
+    "ItemId": 735,
+    "SpriteName": "allUI_3",
+    "ItemName": "Yellow Dress"
+  },
+  {
+    "ItemId": 736,
+    "SpriteName": "allUI_3",
+    "ItemName": "Rainbow Dress"
+  },
+  {
+    "ItemId": 737,
+    "SpriteName": "allUI_3",
+    "ItemName": "Black Plaid Dress"
+  },
+  {
+    "ItemId": 738,
+    "SpriteName": "ui2_10",
+    "ItemName": "Rainbow T Shirt"
+  },
+  {
+    "ItemId": 739,
+    "SpriteName": "ui2_12",
+    "ItemName": "Rainbow Pants"
+  },
+  {
+    "ItemId": 740,
+    "SpriteName": "ui2_13",
+    "ItemName": "Rainbow Sneakers"
+  },
+  {
+    "ItemId": 741,
+    "SpriteName": "allUI_85",
+    "ItemName": "Red Nose"
+  },
+  {
+    "ItemId": 742,
+    "SpriteName": "allUI_85",
+    "ItemName": "Beak"
+  },
+  {
+    "ItemId": 743,
+    "SpriteName": "ui2_10",
+    "ItemName": "Black Coat"
+  },
+  {
+    "ItemId": 744,
+    "SpriteName": "ui2_12",
+    "ItemName": "Black Ripped Jeans"
+  },
+  {
+    "ItemId": 745,
+    "SpriteName": "deedsIcon_6",
+    "ItemName": "House Move Deed"
+  },
+  {
+    "ItemId": 746,
+    "SpriteName": "allUI2_75",
+    "ItemName": "Jelly"
+  },
+  {
+    "ItemId": 747,
+    "SpriteName": "allUI2_77",
+    "ItemName": "Jelly Brew"
+  },
+  {
+    "ItemId": 748,
+    "SpriteName": "allUI2_76",
+    "ItemName": "Bottled Brush"
+  },
+  {
+    "ItemId": 749,
+    "SpriteName": "allUI2_78",
+    "ItemName": "Advanced Sprinkler"
+  },
+  {
+    "ItemId": 750,
+    "SpriteName": "allUI2_79",
+    "ItemName": "Vombat Poo"
+  },
+  {
+    "ItemId": 751,
+    "SpriteName": "allUI_85",
+    "ItemName": "White Mask"
+  },
+  {
+    "ItemId": 752,
+    "SpriteName": "allUI_85",
+    "ItemName": "Black Mask"
+  },
+  {
+    "ItemId": 753,
+    "SpriteName": "allUI2_83",
+    "ItemName": "Windmill"
+  },
+  {
+    "ItemId": 754,
+    "SpriteName": "allUI2_84",
+    "ItemName": "Flower Pot"
+  },
+  {
+    "ItemId": 755,
+    "SpriteName": "allUI2_86",
+    "ItemName": "Gum Wood Path"
+  },
+  {
+    "ItemId": 756,
+    "SpriteName": "allUI2_85",
+    "ItemName": "Hard Wood Path"
+  },
+  {
+    "ItemId": 757,
+    "SpriteName": "allUI2_88",
+    "ItemName": "Hard Wood Bridge"
+  },
+  {
+    "ItemId": 758,
+    "SpriteName": "allUI2_87",
+    "ItemName": "Gum Wood Bridge"
+  },
+  {
+    "ItemId": 759,
+    "SpriteName": "allUI2_89",
+    "ItemName": "Brick Bridge"
+  },
+  {
+    "ItemId": 760,
+    "SpriteName": "allUI2_90",
+    "ItemName": "Gum Wood Fence"
+  },
+  {
+    "ItemId": 761,
+    "SpriteName": "allUI2_91",
+    "ItemName": "Hard Wood Fence"
+  },
+  {
+    "ItemId": 762,
+    "SpriteName": "allUI2_93",
+    "ItemName": "Tin Fence"
+  },
+  {
+    "ItemId": 763,
+    "SpriteName": "allUI2_95",
+    "ItemName": "Big Fried Egg"
+  },
+  {
+    "ItemId": 764,
+    "SpriteName": "allUI2_94",
+    "ItemName": "Fried Egg"
+  },
+  {
+    "ItemId": 765,
+    "SpriteName": "allUI2_96",
+    "ItemName": "Gum Wood Gate"
+  },
+  {
+    "ItemId": 766,
+    "SpriteName": "allUI2_97",
+    "ItemName": "Hard Wood Gate"
+  },
+  {
+    "ItemId": 767,
+    "SpriteName": "allUI2_98",
+    "ItemName": "Tin Gate"
+  },
+  {
+    "ItemId": 768,
+    "SpriteName": "allUI2_100",
+    "ItemName": "Copper Hoe"
+  },
+  {
+    "ItemId": 769,
+    "SpriteName": "allUI2_99",
+    "ItemName": "Brick Well"
+  },
+  {
+    "ItemId": 770,
+    "SpriteName": "allUI2_102",
+    "ItemName": "Quandong"
+  },
+  {
+    "ItemId": 771,
+    "SpriteName": "allUI2_103",
+    "ItemName": "Cooked Quandong"
+  },
+  {
+    "ItemId": 772,
+    "SpriteName": "allUI2_106",
+    "ItemName": "Flake"
+  },
+  {
+    "ItemId": 773,
+    "SpriteName": "allUI2_107",
+    "ItemName": "Cooked Flake"
+  },
+  {
+    "ItemId": 774,
+    "SpriteName": "allUI2_105",
+    "ItemName": "Wheelbarrow"
+  },
+  {
+    "ItemId": 775,
+    "SpriteName": "allUI2_108",
+    "ItemName": "Iron Path"
+  },
+  {
+    "ItemId": 776,
+    "SpriteName": "allUI2_109",
+    "ItemName": "Bottle Brush Seed"
+  },
+  {
+    "ItemId": 777,
+    "SpriteName": "allUI2_110",
+    "ItemName": "Wattle Seed"
+  },
+  {
+    "ItemId": 778,
+    "SpriteName": "allUI2_112",
+    "ItemName": "Copper Fishing Rod"
+  },
+  {
+    "ItemId": 779,
+    "SpriteName": "allUI2_111",
+    "ItemName": "Iron Fishing Rod"
+  },
+  {
+    "ItemId": 780,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Chicken Hood"
+  },
+  {
+    "ItemId": 781,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Wizard Hat"
+  },
+  {
+    "ItemId": 782,
+    "SpriteName": "ui2_10",
+    "ItemName": "Wizard Robe"
+  },
+  {
+    "ItemId": 783,
+    "SpriteName": "fruitAndPlantsUI_4",
+    "ItemName": "Witch Hat"
+  },
+  {
+    "ItemId": 784,
+    "SpriteName": "ui2_10",
+    "ItemName": "Witch Robe"
+  },
+  {
+    "ItemId": 785,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Chair"
+  },
+  {
+    "ItemId": 786,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Seat"
+  },
+  {
+    "ItemId": 787,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Bed"
+  },
+  {
+    "ItemId": 788,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Bedside Table"
+  },
+  {
+    "ItemId": 789,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Bookshelf"
+  },
+  {
+    "ItemId": 790,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Cabinet"
+  },
+  {
+    "ItemId": 791,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Couch"
+  },
+  {
+    "ItemId": 792,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Coffee Table"
+  },
+  {
+    "ItemId": 793,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Table"
+  },
+  {
+    "ItemId": 794,
+    "SpriteName": "allUI_0",
+    "ItemName": "Green Lamp"
+  },
+  {
+    "ItemId": 795,
+    "SpriteName": "deedsIcon_12",
+    "ItemName": "Town Hall Base Tent Upgrade"
+  },
+  {
+    "ItemId": 796,
+    "SpriteName": "deedsIcon_2",
+    "ItemName": "Town Hall Deed"
+  },
+  {
+    "ItemId": 797,
+    "SpriteName": "allUI2_113",
+    "ItemName": "Storage Barrel"
+  },
+  {
+    "ItemId": 798,
+    "SpriteName": "allUI2_115",
+    "ItemName": "Lawn Mower"
+  },
+  {
+    "ItemId": 799,
+    "SpriteName": "allUI2_114",
+    "ItemName": "Coconut"
+  },
+  {
+    "ItemId": 800,
+    "SpriteName": "allUI2_116",
+    "ItemName": "Boogie Board"
+  },
+  {
+    "ItemId": 801,
+    "SpriteName": "allUI2_117",
+    "ItemName": "Tractor"
+  },
+  {
+    "ItemId": 802,
+    "SpriteName": "allUI2_127",
+    "ItemName": "Blue Paint"
+  },
+  {
+    "ItemId": 803,
+    "SpriteName": "allUI2_119",
+    "ItemName": "Paint Remover"
+  },
+  {
+    "ItemId": 804,
+    "SpriteName": "allUI2_126",
+    "ItemName": "Black Paint"
+  },
+  {
+    "ItemId": 805,
+    "SpriteName": "allUI2_125",
+    "ItemName": "Green Paint"
+  },
+  {
+    "ItemId": 806,
+    "SpriteName": "allUI2_124",
+    "ItemName": "Orange Paint"
+  },
+  {
+    "ItemId": 807,
+    "SpriteName": "allUI2_122",
+    "ItemName": "Pink Paint"
+  },
+  {
+    "ItemId": 808,
+    "SpriteName": "allUI2_121",
+    "ItemName": "Purple Paint"
+  },
+  {
+    "ItemId": 809,
+    "SpriteName": "allUI2_120",
+    "ItemName": "Red Paint"
+  },
+  {
+    "ItemId": 810,
+    "SpriteName": "allUI2_123",
+    "ItemName": "White Paint"
+  },
+  {
+    "ItemId": 811,
+    "SpriteName": "allUI2_118",
+    "ItemName": "Yellow Paint"
+  },
+  {
+    "ItemId": 812,
+    "SpriteName": "allUI2_129",
+    "ItemName": "Chrome Paint"
+  },
+  {
+    "ItemId": 813,
+    "SpriteName": "allUI2_128",
+    "ItemName": "Gold Paint"
+  },
+  {
+    "ItemId": 814,
+    "SpriteName": "allUI2_133",
+    "ItemName": "Buccinidae Shell"
+  },
+  {
+    "ItemId": 815,
+    "SpriteName": "allUI2_131",
+    "ItemName": "Cassidae Shell"
+  },
+  {
+    "ItemId": 816,
+    "SpriteName": "allUI2_132",
+    "ItemName": "Sand Dollar"
+  },
+  {
+    "ItemId": 817,
+    "SpriteName": "allUI2_130",
+    "ItemName": "Tonnidae Shell"
+  },
+  {
+    "ItemId": 818,
+    "SpriteName": "allUI2_138",
+    "ItemName": "Biscuit Sea Star"
+  },
+  {
+    "ItemId": 819,
+    "SpriteName": "allUI2_137",
+    "ItemName": "Eleven-armed Sea Star"
+  },
+  {
+    "ItemId": 820,
+    "SpriteName": "allUI2_139",
+    "ItemName": "Black Sea Cucumber"
+  },
+  {
+    "ItemId": 821,
+    "SpriteName": "allUI2_134",
+    "ItemName": "Spiny Sea Urchin"
+  },
+  {
+    "ItemId": 822,
+    "SpriteName": "allUI2_135",
+    "ItemName": "Pink Sea Urchin"
+  },
+  {
+    "ItemId": 823,
+    "SpriteName": "allUI2_136",
+    "ItemName": "Purple Sea Urchin"
+  },
+  {
+    "ItemId": 824,
+    "SpriteName": "allUI2_142",
+    "ItemName": "King Prawn"
+  },
+  {
+    "ItemId": 825,
+    "SpriteName": "allUI2_141",
+    "ItemName": "Tiger Prawn"
+  },
+  {
+    "ItemId": 826,
+    "SpriteName": "allUI2_140",
+    "ItemName": "Bay Bug"
+  },
+  {
+    "ItemId": 827,
+    "SpriteName": "allUI2_144",
+    "ItemName": "Fresh Water Mussel"
+  },
+  {
+    "ItemId": 828,
+    "SpriteName": "allUI2_147",
+    "ItemName": "Fresh Water Prawn"
+  },
+  {
+    "ItemId": 829,
+    "SpriteName": "allUI2_146",
+    "ItemName": "Inland Crab"
+  },
+  {
+    "ItemId": 830,
+    "SpriteName": "allUI2_145",
+    "ItemName": "Purple Mottled Crab"
+  },
+  {
+    "ItemId": 831,
+    "SpriteName": "allUI2_148",
+    "ItemName": "Blue Mussel"
+  },
+  {
+    "ItemId": 832,
+    "SpriteName": "allUI2_149",
+    "ItemName": "Cushion Sea Star"
+  },
+  {
+    "ItemId": 833,
+    "SpriteName": "allUI2_143",
+    "ItemName": "White Yabbie"
+  },
+  {
+    "ItemId": 834,
+    "SpriteName": "allUI2_150",
+    "ItemName": "Blue Sea Slug"
+  },
+  {
+    "ItemId": 835,
+    "SpriteName": "allUI2_156",
+    "ItemName": "Croco Berley Box"
+  },
+  {
+    "ItemId": 836,
+    "SpriteName": "allUI2_156",
+    "ItemName": "Devil Berley Box"
+  },
+  {
+    "ItemId": 837,
+    "SpriteName": "allUI2_154",
+    "ItemName": "Shark Berley Box"
+  },
+  {
+    "ItemId": 838,
+    "SpriteName": "allUI2_151",
+    "ItemName": "Battle Shovel"
+  },
+  {
+    "ItemId": 839,
+    "SpriteName": "allUI2_152",
+    "ItemName": "Bone Bow"
+  },
+  {
+    "ItemId": 840,
+    "SpriteName": "allUI2_153",
+    "ItemName": "Bone Arrow"
+  },
+  {
+    "ItemId": 841,
+    "SpriteName": "allUI2_157",
+    "ItemName": "Gold Pocket Watch"
+  },
+  {
+    "ItemId": 842,
+    "SpriteName": "allUI2_168",
+    "ItemName": "Boom Box"
+  },
+  {
+    "ItemId": 843,
+    "SpriteName": "allUI2_158",
+    "ItemName": "Tomato"
+  },
+  {
+    "ItemId": 844,
+    "SpriteName": "allUI2_159",
+    "ItemName": "Tomato Seeds"
+  },
+  {
+    "ItemId": 845,
+    "SpriteName": "allUI2_160",
+    "ItemName": "Green Bean"
+  },
+  {
+    "ItemId": 846,
+    "SpriteName": "allUI2_161",
+    "ItemName": "Green Bean Seeds"
+  },
+  {
+    "ItemId": 847,
+    "SpriteName": "allUI2_82",
+    "ItemName": "Empty Miners Helmet"
+  },
+  {
+    "ItemId": 848,
+    "SpriteName": "allUI2_162",
+    "ItemName": "Wooden Chest"
+  },
+  {
+    "ItemId": 849,
+    "SpriteName": "allUI2_163",
+    "ItemName": "Doggo Collar"
+  },
+  {
+    "ItemId": 850,
+    "SpriteName": "allUI2_164",
+    "ItemName": "Mu Saddle"
+  },
+  {
+    "ItemId": 851,
+    "SpriteName": "allUI2_165",
+    "ItemName": "Copper Street Lamp"
+  },
+  {
+    "ItemId": 852,
+    "SpriteName": "allUI2_167",
+    "ItemName": "Cooked Prime Meat"
+  },
+  {
+    "ItemId": 853,
+    "SpriteName": "allUI2_166",
+    "ItemName": "Raw Prime Meat"
+  },
+  {
+    "ItemId": 854,
+    "SpriteName": "allUI2_169",
+    "ItemName": "Repair Table"
+  },
+  {
+    "ItemId": 855,
+    "SpriteName": "allUI2_170",
+    "ItemName": "Repair Kit"
+  },
+  {
+    "ItemId": 856,
+    "SpriteName": "allUI2_171",
+    "ItemName": "Charging Station"
+  },
+  {
+    "ItemId": 857,
+    "SpriteName": "allUI2_180",
+    "ItemName": "Old Sign"
+  },
+  {
+    "ItemId": 858,
+    "SpriteName": "allUI2_101",
+    "ItemName": "Iron Hoe"
+  },
+  {
+    "ItemId": 859,
+    "SpriteName": "allUI2_172",
+    "ItemName": "Bat Wing"
+  },
+  {
+    "ItemId": 860,
+    "SpriteName": "allUI2_175",
+    "ItemName": "Grain Mill"
+  },
+  {
+    "ItemId": 861,
+    "SpriteName": "allUI2_173",
+    "ItemName": "Flour"
+  },
+  {
+    "ItemId": 862,
+    "SpriteName": "allUI2_174",
+    "ItemName": "Sugar"
+  },
+  {
+    "ItemId": 863,
+    "SpriteName": "allUI2_176",
+    "ItemName": "Worm Farm"
+  },
+  {
+    "ItemId": 864,
+    "SpriteName": "allUI2_177",
+    "ItemName": "Machine Manual"
+  },
+  {
+    "ItemId": 865,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Bed"
+  },
+  {
+    "ItemId": 866,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Bedside Table"
+  },
+  {
+    "ItemId": 867,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Bookshelf"
+  },
+  {
+    "ItemId": 868,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Cabinet"
+  },
+  {
+    "ItemId": 869,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Chair"
+  },
+  {
+    "ItemId": 870,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Coffee Table"
+  },
+  {
+    "ItemId": 871,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Couch"
+  },
+  {
+    "ItemId": 872,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Table"
+  },
+  {
+    "ItemId": 873,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Lamp"
+  },
+  {
+    "ItemId": 873,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Lamp"
+  },
+  {
+    "ItemId": 875,
+    "SpriteName": "allUI_0",
+    "ItemName": "Warm Nordic Seat"
+  },
+  {
+    "ItemId": 876,
+    "SpriteName": "allUI2_181",
+    "ItemName": "Red Hang Glider"
+  },
+  {
+    "ItemId": 877,
+    "SpriteName": "allUI_152",
+    "ItemName": "Butter Glider"
+  },
+  {
+    "ItemId": 878,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Table"
+  },
+  {
+    "ItemId": 879,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Seat"
+  },
+  {
+    "ItemId": 880,
+    "SpriteName": "allUI_0",
+    "ItemName": "Dark Wooden Couch"
+  },
+  {
+    "ItemId": 881,
+    "SpriteName": "allUI_0",
+    "ItemName": "Wooden Bedside Table"
+  },
+  {
+    "ItemId": 882,
+    "SpriteName": "allUI_0",
+    "ItemName": "Tea Pot"
+  },
+  {
+    "ItemId": 883,
+    "SpriteName": "allUI_0",
+    "ItemName": "Small Pot"
+  },
+  {
+    "ItemId": 884,
+    "SpriteName": "allUI_0",
+    "ItemName": "Rattan Basket"
+  },
+  {
+    "ItemId": 885,
+    "SpriteName": "allUI2_187",
+    "ItemName": "Palm Wood Bench"
+  },
+  {
+    "ItemId": 886,
+    "SpriteName": "allUI2_188",
+    "ItemName": "Hard Wood Bench"
+  },
+  {
+    "ItemId": 887,
+    "SpriteName": "allUI2_189",
+    "ItemName": "Gum Wood Bench"
+  },
+  {
+    "ItemId": 888,
+    "SpriteName": "allUI2_190",
+    "ItemName": "Iron Wood Bench"
+  },
+  {
+    "ItemId": 889,
+    "SpriteName": "allUI2_182",
+    "ItemName": "Festoon Lights"
+  },
+  {
+    "ItemId": 890,
+    "SpriteName": "allUI2_186",
+    "ItemName": "Mushroom Lamp"
+  },
+  {
+    "ItemId": 891,
+    "SpriteName": "allUI2_183",
+    "ItemName": "Jackaroo Statue"
+  },
+  {
+    "ItemId": 892,
+    "SpriteName": "allUI2_184",
+    "ItemName": "Bush Devil Statue"
+  },
+  {
+    "ItemId": 893,
+    "SpriteName": "allUI2_193",
+    "ItemName": "Bread"
+  },
+  {
+    "ItemId": 894,
+    "SpriteName": "allUI2_194",
+    "ItemName": "Fairy Bread"
+  },
+  {
+    "ItemId": 895,
+    "SpriteName": "allUI2_195",
+    "ItemName": "Pastie"
+  },
+  {
+    "ItemId": 896,
+    "SpriteName": "allUI2_192",
+    "ItemName": "Damper"
+  },
+  {
+    "ItemId": 897,
+    "SpriteName": "allUI2_196",
+    "ItemName": "Sausage Roll"
+  },
+  {
+    "ItemId": 898,
+    "SpriteName": "allUI2_197",
+    "ItemName": "Prime Roast"
+  },
+  {
+    "ItemId": 899,
+    "SpriteName": "allUI2_198",
+    "ItemName": "Golden Jackaroo Statue"
+  },
+  {
+    "ItemId": 900,
+    "SpriteName": "allUI2_199",
+    "ItemName": "Golden Bush Devil Statue"
+  },
+  {
+    "ItemId": 901,
+    "SpriteName": "allUI2_200",
+    "ItemName": "Iron Cement Fence"
+  },
+  {
+    "ItemId": 902,
+    "SpriteName": "allUI2_201",
+    "ItemName": "Copper Top Fence"
+  },
+  {
+    "ItemId": 903,
+    "SpriteName": "allUI_200",
+    "ItemName": "Umbrella"
+  },
+  {
+    "ItemId": 904,
+    "SpriteName": "deedsIcon_11",
+    "ItemName": "Bulletin Board"
+  }
+]

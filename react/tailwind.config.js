@@ -11,7 +11,8 @@ module.exports = {
                 tertiary: '#392100',
                 accent: '#7d2b0d',
                 dinkumBeige: '#fdf4e4',
-                dinkumGray: '#e3dbcd'
+                dinkumGray: '#e3dbcd',
+                dinkumOrange: '#efa75d'
             }
         },
         fontFamily: {
