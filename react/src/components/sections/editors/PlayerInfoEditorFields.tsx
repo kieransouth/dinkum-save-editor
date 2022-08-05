@@ -8,9 +8,11 @@ import {KuiButton} from "../../kui/KuiButton";
 import {KuiTextInput} from "../../kui/KuiTextInput";
 import {InventoryItem} from "../../../models/inventory";
 import inventoryService from "../../../services/inventoryService";
+import {InventoryItemDisplay} from "./InventoryItemDisplay";
 
 export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot, data, fileName}) => {
     const [error, setError] = useState<Error>();
+    const [itemSearch, setItemSearch] = useState<string>();
     const [inventoryItems, setInventoryItems] = useState<InventoryItem[]>();
 
     const [playerName, setPlayerName] = useState<string>(data.playerName);
@@ -43,24 +45,13 @@ export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot
     }
 
     const createInventoryRow = (inventoryItems: InventoryItem[], itemIds: Array<number | undefined>) => {
-        return itemIds.map(itemId => itemId !== -1 ?
-            (
-                <div className={'bg-dinkumBeige rounded-xl w-24 p-1.5 flex flex-col gap-1'}>
-                    <img
-                        src={`/sprites/${inventoryItems.find(item => item.ItemId === itemId)?.SpriteName || ''}.png`}
-                        className={'bg-dinkumOrange rounded-xl'}
-                    />
-                    <div className={'w-full bg-emerald-500 h-2 rounded-full p-1'}/>
-                </div>
-            )
-            :
-            (
-                <div className={'bg-dinkumBeige rounded-xl w-24 p-1.5 flex flex-col gap-1'}>
-                    <div className={'bg-dinkumGray rounded-xl w-full h-full'}/>
-                    <div className={'w-full h-2 p-1'}/>
-                </div>
-            )
-        )
+        return itemIds.map((itemId, key) =>
+            <InventoryItemDisplay
+                key={key}
+                inventoryItems={inventoryItems}
+                itemId={itemId}
+            />
+        );
     }
 
     return (
@@ -83,25 +74,70 @@ export const PlayerEditorFields: React.FC<EditorFieldsProps<PlayerInv>> = ({slot
                 <KuiNumberInput label={'Stamina'} name={'stamina'} value={stamina} change={setStamina}/>
                 <KuiNumberInput label={'Health'} name={'health'} value={health} change={setHealth}/>
             </div>
-            {inventoryItems && data.itemsInInvSlots &&
-                <div className={'flex flex-row bg-primary p-6 rounded-md justify-center'}>
-                    <div className={'flex flex-col gap-2'}>
-                        <div className={'flex flex-row justify-center gap-2'}>
-                            {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(11, 22))}
+            <div className={'flex flex-row'}>
+                {inventoryItems && data.itemsInInvSlots &&
+                    <div className={'flex flex-row bg-primary p-6 rounded-md gap-16 w-full'}>
+                        <div className={'flex flex-col gap-16'}>
+                            <div className={'flex flex-col gap-2'}>
+                                <div className={'flex flex-row justify-center gap-24'}>
+                                    <InventoryItemDisplay inventoryItems={inventoryItems} itemId={data.head}/>
+                                    <div className={'flex flex-row gap-2'}>
+                                        {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(11, 22))}
+                                    </div>
+                                </div>
+                                <div className={'flex flex-row justify-center gap-24'}>
+                                    <InventoryItemDisplay inventoryItems={inventoryItems} itemId={data.face}/>
+                                    <div className={'flex flex-row gap-2'}>
+                                        {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(22, 33))}
+                                    </div>
+                                </div>
+                                <div className={'flex flex-row justify-center gap-24'}>
+                                    <InventoryItemDisplay inventoryItems={inventoryItems} itemId={data.body}/>
+                                    <div className={'flex flex-row gap-2'}>
+                                        {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(33, 44))}
+                                    </div>
+                                </div>
+                                <InventoryItemDisplay inventoryItems={inventoryItems} itemId={data.pants}/>
+                                <div className={'flex flex-row justify-center gap-24'}>
+                                    <InventoryItemDisplay inventoryItems={inventoryItems} itemId={data.shoes}/>
+                                    <div className={'flex flex-row gap-2'}>
+                                        {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(0, 11))}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className={'flex flex-row justify-center gap-2'}>
-                            {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(22, 33))}
-                        </div>
-                        <div className={'flex flex-row justify-center gap-2'}>
-                            {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(33, 44))}
-                        </div>
-                        <div className={'flex flex-row justify-center gap-2 mt-10'}>
-                            {createInventoryRow(inventoryItems, data.itemsInInvSlots.slice(0, 11))}
+                        <div className={'relative w-full'}>
+                            <div className={'absolute top-0 right-0 flex flex-col h-full w-full gap-2'}>
+                                <KuiTextInput label={'Search for an item'} name={'search'} placeholder={'boomerang'}
+                                              value={itemSearch} change={setItemSearch}/>
+                                <div className={'overflow-y-scroll rounded-md h-full bg-tertiary'}>
+                                    {inventoryItems
+                                        .filter(item => itemSearch ? item.ItemName.toUpperCase().indexOf(itemSearch.toUpperCase()) !== -1 : true)
+                                        .map((item, key) => (
+                                            <div
+                                                className={'flex flex-row items-center justify-between text-primary hover:bg-secondary cursor-pointer hover:text-tertiary'}
+                                                key={key}>
+                                                <div className={'flex flex-row items-center'}>
+                                                    <img
+                                                        className={'w-20 p-2'}
+                                                        src={`/sprites/${item.SpriteName}.png`}
+                                                        alt={item.ItemName}
+                                                        title={item.ItemName}
+                                                    />
+                                                    <p className={'text-xl'}>{item.ItemName}</p>
+                                                </div>
+                                                <p className={'p-6'}>{item.ItemId}</p>
+                                            </div>
+                                        ))}
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
 
-            }
+            </div>
+
+
             {error && <KuiNotice type={'error'}>Validation error: {error.message}</KuiNotice>}
             <KuiButton fw sub text={'Save Changes'}/>
         </form>

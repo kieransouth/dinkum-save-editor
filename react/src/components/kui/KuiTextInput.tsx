@@ -50,7 +50,7 @@ export const KuiTextInput: React.FC<Props> = ({
             readOnly={readonly}
             disabled={readonly}
             onChange={event => change ? change(event.target.value) : void (0)}
-            className={classNames('p-2 border-2 border-tertiary rounded-md', {
+            className={classNames('p-2 border-2 border-tertiary rounded-md placeholder:text-tertiary placeholder:opacity-50', {
                 'w-2/3': (layout ?? 'col') === 'row',
                 'bg-tertiary text-primary cursor-not-allowed pointer-events-none': readonly,
                 'bg-primary text-tertiary': !readonly
