@@ -12,5 +12,5 @@ Dinkum saves data to binary files, and they're not easy to edit by hand.
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## It looks like
-![](https://cdn.discordapp.com/attachments/998010190785945680/1003008632717312070/unknown.png)
-![](https://cdn.discordapp.com/attachments/998010190785945680/1003008633107398656/unknown.png)
+![](https://spicy.gg/dinkum-1.png)
+![](https://spicy.gg/dinkum-2.png)
